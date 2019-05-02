@@ -25,7 +25,12 @@ for i in range(len(query)):
 		print (key, value)
 
 print("Query")
-ciudades = client.query('SELECT * from Clima limit 2')
-ciudades = list(ciudades.get_points())
-ciudades = clean_json(ciudades)
-print(ciudades[0]["ciudad"])
+estados = client.query('show tag values on "pfprueba" from "Temperatura" with key="estado"')
+estados = list(estados.get_points())
+estados = clean_json(estados)
+#print(estados[0]["value"])
+
+ciudad = client.query('show tag values on "pfprueba" from "Temperatura" with key="ciudad"')
+ciudad = list(ciudad.get_points())
+ciudad = clean_json(ciudad)
+#print(ciudad[0]["value"])
