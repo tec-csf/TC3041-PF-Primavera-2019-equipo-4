@@ -132,19 +132,17 @@ db.databases.find( { "partitioned": true } )
 use admin
 db.adminCommand( { listShards : 1 } )
 
+# Copia archivo JSON con los datos al contenedor (router)
 
-# Insertar datos en el cluster
+docker cp mongo_data.txt mongo-router:/mongo_data.txt
 
-use shdb
-var bulk = db.data.initializeUnorderedBulkOp();
-people = ["Marc", "Bill", "George", "Eliot", "Matt", "Trey", "Tracy", "Greg", "Steve", "Kristina", "Katie", "Jeff"];
-for(var i=0; i<1000000; i++){
-   user_id = i;
-   name = people[Math.floor(Math.random()*people.length)];
-   number = Math.floor(Math.random()*10001);
-   bulk.insert( { "user_id":user_id, "name":name, "number":number });
-}
-bulk.execute();
+#Conectarse al bash del router
+
+docker exec -it mongo-router bash
+
+#Importar los datos con mongoimport
+
+mongoimport --db atractions --collection places --file /mongo_data.txt 
 
 # Dividir los datos entre chunks
 

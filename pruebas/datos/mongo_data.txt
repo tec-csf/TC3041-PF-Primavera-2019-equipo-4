@@ -1,4 +1,3 @@
-[
 {
    "chubasco": 1,
    "ciudad": "Aguascalientes",
@@ -11,7 +10,7 @@
    "soleado": 0,
    "tipo": "Puente",
    "tormenta": 0
-},
+}
 {
    "chubasco": 0,
    "ciudad": "Ensenada",
@@ -24,7 +23,7 @@
    "soleado": 0,
    "tipo": "Playa",
    "tormenta": 1
-},
+}
 {
    "chubasco": 1,
    "ciudad": "Mexicali",
@@ -37,7 +36,7 @@
    "soleado": 0,
    "tipo": "Edificio",
    "tormenta": 0
-},
+}
 {
    "chubasco": 0,
    "ciudad": "Tijuana",
@@ -50,7 +49,7 @@
    "soleado": 0,
    "tipo": "Puente",
    "tormenta": 1
-},
+}
 {
    "chubasco": 0,
    "ciudad": "LaPaz",
@@ -63,7 +62,7 @@
    "soleado": 0,
    "tipo": "Parque",
    "tormenta": 1
-},
+}
 {
    "chubasco": 0,
    "ciudad": "Campeche",
@@ -76,7 +75,7 @@
    "soleado": 1,
    "tipo": "Restaurante",
    "tormenta": 0
-},
+}
 {
    "chubasco": 0,
    "ciudad": "Comitan",
@@ -89,7 +88,7 @@
    "soleado": 0,
    "tipo": "Playa",
    "tormenta": 1
-},
+}
 {
    "chubasco": 1,
    "ciudad": "SanCristobaldelasCasas",
@@ -102,7 +101,7 @@
    "soleado": 1,
    "tipo": "Museo",
    "tormenta": 0
-},
+}
 {
    "chubasco": 1,
    "ciudad": "Tapachula",
@@ -115,7 +114,7 @@
    "soleado": 0,
    "tipo": "Zona Arqueologica",
    "tormenta": 1
-},
+}
 {
    "chubasco": 0,
    "ciudad": "Tuxtla",
@@ -128,7 +127,7 @@
    "soleado": 1,
    "tipo": "Restaurante",
    "tormenta": 0
-},
+}
 {
    "chubasco": 1,
    "ciudad": "CasasGrandes",
@@ -141,7 +140,7 @@
    "soleado": 1,
    "tipo": "Restaurante",
    "tormenta": 0
-},
+}
 {
    "chubasco": 0,
    "ciudad": "Chihuahua",
@@ -154,7 +153,7 @@
    "soleado": 1,
    "tipo": "Parque",
    "tormenta": 0
-},
+}
 {
    "chubasco": 0,
    "ciudad": "CiudadDelicias",
@@ -167,7 +166,7 @@
    "soleado": 1,
    "tipo": "Edificio",
    "tormenta": 0
-},
+}
 {
    "chubasco": 1,
    "ciudad": "HidalgodelParral",
@@ -180,7 +179,7 @@
    "soleado": 1,
    "tipo": "Puente",
    "tormenta": 0
-},
+}
 {
    "chubasco": 1,
    "ciudad": "Juarez",
@@ -193,7 +192,7 @@
    "soleado": 0,
    "tipo": "Zona Arqueologica",
    "tormenta": 1
-},
+}
 {
    "chubasco": 0,
    "ciudad": "NuevoCasasGrandes",
@@ -206,7 +205,7 @@
    "soleado": 1,
    "tipo": "Edificio",
    "tormenta": 1
-},
+}
 {
    "chubasco": 1,
    "ciudad": "CiudadAcu\u00f1a",
@@ -219,7 +218,7 @@
    "soleado": 0,
    "tipo": "Puente",
    "tormenta": 0
-},
+}
 {
    "chubasco": 1,
    "ciudad": "Monclova",
@@ -232,7 +231,7 @@
    "soleado": 1,
    "tipo": "Zona Arqueologica",
    "tormenta": 0
-},
+}
 {
    "chubasco": 1,
    "ciudad": "Muzquiz",
@@ -245,7 +244,7 @@
    "soleado": 1,
    "tipo": "Puente",
    "tormenta": 0
-},
+}
 {
    "chubasco": 0,
    "ciudad": "PiedrasNegras",
@@ -258,7 +257,7 @@
    "soleado": 0,
    "tipo": "Museo",
    "tormenta": 0
-},
+}
 {
    "chubasco": 1,
    "ciudad": "Saltillo",
@@ -271,7 +270,7 @@
    "soleado": 1,
    "tipo": "Restaurante",
    "tormenta": 1
-},
+}
 {
    "chubasco": 0,
    "ciudad": "Torreon",
@@ -284,7 +283,7 @@
    "soleado": 1,
    "tipo": "Playa",
    "tormenta": 1
-},
+}
 {
    "chubasco": 1,
    "ciudad": "Colima",
@@ -297,7 +296,7 @@
    "soleado": 0,
    "tipo": "Restaurante",
    "tormenta": 1
-},
+}
 {
    "chubasco": 0,
    "ciudad": "Manzanillo",
@@ -310,7 +309,7 @@
    "soleado": 1,
    "tipo": "Museo",
    "tormenta": 1
-},
+}
 {
    "chubasco": 1,
    "ciudad": "Tecoman",
@@ -323,7 +322,7 @@
    "soleado": 0,
    "tipo": "Museo",
    "tormenta": 0
-},
+}
 {
    "chubasco": 1,
    "ciudad": "Durango",
@@ -336,7 +335,7 @@
    "soleado": 1,
    "tipo": "Restaurante",
    "tormenta": 0
-},
+}
 {
    "chubasco": 1,
    "ciudad": "CDMX",
@@ -349,7 +348,7 @@
    "soleado": 1,
    "tipo": "Museo",
    "tormenta": 1
-},
+}
 {
    "chubasco": 0,
    "ciudad": "Acambaro",
@@ -362,7 +361,7 @@
    "soleado": 1,
    "tipo": "Zona Arqueologica",
    "tormenta": 0
-},
+}
 {
    "chubasco": 0,
    "ciudad": "Celaya",
@@ -375,7 +374,7 @@
    "soleado": 0,
    "tipo": "Zona Arqueologica",
    "tormenta": 0
-},
+}
 {
    "chubasco": 0,
    "ciudad": "Guanajuato",
@@ -388,7 +387,7 @@
    "soleado": 0,
    "tipo": "Edificio",
    "tormenta": 1
-},
+}
 {
    "chubasco": 0,
    "ciudad": "Irapuato",
@@ -401,7 +400,7 @@
    "soleado": 1,
    "tipo": "Zona Arqueologica",
    "tormenta": 0
-},
+}
 {
    "chubasco": 0,
    "ciudad": "Leon",
@@ -414,7 +413,7 @@
    "soleado": 0,
    "tipo": "Museo",
    "tormenta": 1
-},
+}
 {
    "chubasco": 0,
    "ciudad": "Salamanca",
@@ -427,7 +426,7 @@
    "soleado": 1,
    "tipo": "Puente",
    "tormenta": 0
-},
+}
 {
    "chubasco": 1,
    "ciudad": "SanMigueldeAllende",
@@ -440,7 +439,7 @@
    "soleado": 1,
    "tipo": "Museo",
    "tormenta": 0
-},
+}
 {
    "chubasco": 1,
    "ciudad": "Acapulco",
@@ -453,7 +452,7 @@
    "soleado": 1,
    "tipo": "Museo",
    "tormenta": 0
-},
+}
 {
    "chubasco": 1,
    "ciudad": "Chilpancingo",
@@ -466,7 +465,7 @@
    "soleado": 0,
    "tipo": "Zona Arqueologica",
    "tormenta": 1
-},
+}
 {
    "chubasco": 0,
    "ciudad": "Iguala",
@@ -479,7 +478,7 @@
    "soleado": 1,
    "tipo": "Edificio",
    "tormenta": 0
-},
+}
 {
    "chubasco": 0,
    "ciudad": "Pachuca",
@@ -492,7 +491,7 @@
    "soleado": 0,
    "tipo": "Edificio",
    "tormenta": 1
-},
+}
 {
    "chubasco": 0,
    "ciudad": "Tulancingo",
@@ -505,7 +504,7 @@
    "soleado": 0,
    "tipo": "Zona Arqueologica",
    "tormenta": 0
-},
+}
 {
    "chubasco": 1,
    "ciudad": "Arandas",
@@ -518,7 +517,7 @@
    "soleado": 1,
    "tipo": "Parque",
    "tormenta": 0
-},
+}
 {
    "chubasco": 0,
    "ciudad": "Guadalajara",
@@ -531,7 +530,7 @@
    "soleado": 0,
    "tipo": "Playa",
    "tormenta": 0
-},
+}
 {
    "chubasco": 0,
    "ciudad": "Ocotlan",
@@ -544,7 +543,7 @@
    "soleado": 0,
    "tipo": "Museo",
    "tormenta": 1
-},
+}
 {
    "chubasco": 0,
    "ciudad": "PuertoVallarta",
@@ -557,7 +556,7 @@
    "soleado": 1,
    "tipo": "Playa",
    "tormenta": 1
-},
+}
 {
    "chubasco": 1,
    "ciudad": "Tlaquepaque",
@@ -570,7 +569,7 @@
    "soleado": 1,
    "tipo": "Museo",
    "tormenta": 0
-},
+}
 {
    "chubasco": 0,
    "ciudad": "Zapopan",
@@ -583,7 +582,7 @@
    "soleado": 0,
    "tipo": "Puente",
    "tormenta": 1
-},
+}
 {
    "chubasco": 0,
    "ciudad": "Nezahualcoyotl",
@@ -596,7 +595,7 @@
    "soleado": 0,
    "tipo": "Zona Arqueologica",
    "tormenta": 1
-},
+}
 {
    "chubasco": 0,
    "ciudad": "Tlalnepantla",
@@ -609,7 +608,7 @@
    "soleado": 0,
    "tipo": "Playa",
    "tormenta": 1
-},
+}
 {
    "chubasco": 1,
    "ciudad": "Toluca",
@@ -622,7 +621,7 @@
    "soleado": 1,
    "tipo": "Parque",
    "tormenta": 0
-},
+}
 {
    "chubasco": 0,
    "ciudad": "Apatzingan",
@@ -635,7 +634,7 @@
    "soleado": 0,
    "tipo": "Playa",
    "tormenta": 0
-},
+}
 {
    "chubasco": 1,
    "ciudad": "Ciudad Hidalgo",
@@ -648,7 +647,7 @@
    "soleado": 1,
    "tipo": "Restaurante",
    "tormenta": 0
-},
+}
 {
    "chubasco": 0,
    "ciudad": "Morelia",
@@ -661,7 +660,7 @@
    "soleado": 1,
    "tipo": "Zona Arqueologica",
    "tormenta": 0
-},
+}
 {
    "chubasco": 0,
    "ciudad": "Zitacuaro",
@@ -674,7 +673,7 @@
    "soleado": 1,
    "tipo": "Puente",
    "tormenta": 0
-},
+}
 {
    "chubasco": 1,
    "ciudad": "Cuernavaca",
@@ -687,7 +686,7 @@
    "soleado": 0,
    "tipo": "Restaurante",
    "tormenta": 1
-},
+}
 {
    "chubasco": 0,
    "ciudad": "Tepoztlan",
@@ -700,7 +699,7 @@
    "soleado": 0,
    "tipo": "Parque",
    "tormenta": 1
-},
+}
 {
    "chubasco": 0,
    "ciudad": "Tepic",
@@ -713,7 +712,7 @@
    "soleado": 1,
    "tipo": "Parque",
    "tormenta": 1
-},
+}
 {
    "chubasco": 0,
    "ciudad": "Monterrey",
@@ -726,7 +725,7 @@
    "soleado": 1,
    "tipo": "Puente",
    "tormenta": 0
-},
+}
 {
    "chubasco": 0,
    "ciudad": "Juchitan",
@@ -739,7 +738,7 @@
    "soleado": 0,
    "tipo": "Puente",
    "tormenta": 1
-},
+}
 {
    "chubasco": 1,
    "ciudad": "Oaxaca",
@@ -752,7 +751,7 @@
    "soleado": 1,
    "tipo": "Restaurante",
    "tormenta": 1
-},
+}
 {
    "chubasco": 1,
    "ciudad": "Cholula",
@@ -765,7 +764,7 @@
    "soleado": 1,
    "tipo": "Puente",
    "tormenta": 0
-},
+}
 {
    "chubasco": 1,
    "ciudad": "Matamoros",
@@ -778,7 +777,7 @@
    "soleado": 1,
    "tipo": "Puente",
    "tormenta": 0
-},
+}
 {
    "chubasco": 1,
    "ciudad": "Puebla",
@@ -791,7 +790,7 @@
    "soleado": 0,
    "tipo": "Playa",
    "tormenta": 1
-},
+}
 {
    "chubasco": 1,
    "ciudad": "Queretaro",
@@ -804,7 +803,7 @@
    "soleado": 1,
    "tipo": "Edificio",
    "tormenta": 1
-},
+}
 {
    "chubasco": 1,
    "ciudad": "Cancun",
@@ -817,7 +816,7 @@
    "soleado": 0,
    "tipo": "Restaurante",
    "tormenta": 0
-},
+}
 {
    "chubasco": 1,
    "ciudad": "Chetumal",
@@ -830,7 +829,7 @@
    "soleado": 1,
    "tipo": "Zona Arqueologica",
    "tormenta": 1
-},
+}
 {
    "chubasco": 1,
    "ciudad": "Matehuala",
@@ -843,7 +842,7 @@
    "soleado": 0,
    "tipo": "Edificio",
    "tormenta": 0
-},
+}
 {
    "chubasco": 1,
    "ciudad": "San Luis Potosi",
@@ -856,7 +855,7 @@
    "soleado": 0,
    "tipo": "Edificio",
    "tormenta": 0
-},
+}
 {
    "chubasco": 0,
    "ciudad": "Culiacan",
@@ -869,7 +868,7 @@
    "soleado": 1,
    "tipo": "Puente",
    "tormenta": 0
-},
+}
 {
    "chubasco": 1,
    "ciudad": "Mazatlan",
@@ -882,7 +881,7 @@
    "soleado": 0,
    "tipo": "Parque",
    "tormenta": 0
-},
+}
 {
    "chubasco": 0,
    "ciudad": "CiudadObregon",
@@ -895,7 +894,7 @@
    "soleado": 0,
    "tipo": "Museo",
    "tormenta": 1
-},
+}
 {
    "chubasco": 0,
    "ciudad": "Hermosillo",
@@ -908,7 +907,7 @@
    "soleado": 0,
    "tipo": "Restaurante",
    "tormenta": 1
-},
+}
 {
    "chubasco": 0,
    "ciudad": "Nogales",
@@ -921,7 +920,7 @@
    "soleado": 1,
    "tipo": "Puente",
    "tormenta": 1
-},
+}
 {
    "chubasco": 1,
    "ciudad": "SanLuis",
@@ -934,7 +933,7 @@
    "soleado": 0,
    "tipo": "Edificio",
    "tormenta": 1
-},
+}
 {
    "chubasco": 1,
    "ciudad": "Villahermosa",
@@ -947,7 +946,7 @@
    "soleado": 1,
    "tipo": "Museo",
    "tormenta": 1
-},
+}
 {
    "chubasco": 1,
    "ciudad": "Tlaxcala",
@@ -960,7 +959,7 @@
    "soleado": 0,
    "tipo": "Parque",
    "tormenta": 0
-},
+}
 {
    "chubasco": 0,
    "ciudad": "Coatzacoalcos",
@@ -973,7 +972,7 @@
    "soleado": 1,
    "tipo": "Restaurante",
    "tormenta": 0
-},
+}
 {
    "chubasco": 0,
    "ciudad": "Orizaba",
@@ -986,7 +985,7 @@
    "soleado": 1,
    "tipo": "Museo",
    "tormenta": 1
-},
+}
 {
    "chubasco": 0,
    "ciudad": "Xalapa",
@@ -999,7 +998,7 @@
    "soleado": 0,
    "tipo": "Museo",
    "tormenta": 1
-},
+}
 {
    "chubasco": 1,
    "ciudad": "Merida",
@@ -1012,7 +1011,7 @@
    "soleado": 1,
    "tipo": "Parque",
    "tormenta": 1
-},
+}
 {
    "chubasco": 0,
    "ciudad": "Zacatecas",
@@ -1025,7 +1024,7 @@
    "soleado": 0,
    "tipo": "Zona Arqueologica",
    "tormenta": 0
-},
+}
 {
    "chubasco": 1,
    "ciudad": "Aguascalientes",
@@ -1038,7 +1037,7 @@
    "soleado": 1,
    "tipo": "Puente",
    "tormenta": 1
-},
+}
 {
    "chubasco": 1,
    "ciudad": "Ensenada",
@@ -1051,7 +1050,7 @@
    "soleado": 0,
    "tipo": "Puente",
    "tormenta": 1
-},
+}
 {
    "chubasco": 1,
    "ciudad": "Mexicali",
@@ -1064,7 +1063,7 @@
    "soleado": 1,
    "tipo": "Restaurante",
    "tormenta": 1
-},
+}
 {
    "chubasco": 0,
    "ciudad": "Tijuana",
@@ -1077,7 +1076,7 @@
    "soleado": 0,
    "tipo": "Edificio",
    "tormenta": 1
-},
+}
 {
    "chubasco": 0,
    "ciudad": "LaPaz",
@@ -1090,7 +1089,7 @@
    "soleado": 1,
    "tipo": "Zona Arqueologica",
    "tormenta": 0
-},
+}
 {
    "chubasco": 0,
    "ciudad": "Campeche",
@@ -1103,7 +1102,7 @@
    "soleado": 1,
    "tipo": "Playa",
    "tormenta": 0
-},
+}
 {
    "chubasco": 0,
    "ciudad": "Comitan",
@@ -1116,7 +1115,7 @@
    "soleado": 1,
    "tipo": "Zona Arqueologica",
    "tormenta": 0
-},
+}
 {
    "chubasco": 1,
    "ciudad": "SanCristobaldelasCasas",
@@ -1129,7 +1128,7 @@
    "soleado": 0,
    "tipo": "Parque",
    "tormenta": 0
-},
+}
 {
    "chubasco": 1,
    "ciudad": "Tapachula",
@@ -1142,7 +1141,7 @@
    "soleado": 0,
    "tipo": "Parque",
    "tormenta": 1
-},
+}
 {
    "chubasco": 1,
    "ciudad": "Tuxtla",
@@ -1155,7 +1154,7 @@
    "soleado": 0,
    "tipo": "Puente",
    "tormenta": 0
-},
+}
 {
    "chubasco": 0,
    "ciudad": "CasasGrandes",
@@ -1168,7 +1167,7 @@
    "soleado": 0,
    "tipo": "Playa",
    "tormenta": 0
-},
+}
 {
    "chubasco": 0,
    "ciudad": "Chihuahua",
@@ -1181,7 +1180,7 @@
    "soleado": 0,
    "tipo": "Playa",
    "tormenta": 1
-},
+}
 {
    "chubasco": 0,
    "ciudad": "CiudadDelicias",
@@ -1194,7 +1193,7 @@
    "soleado": 1,
    "tipo": "Puente",
    "tormenta": 1
-},
+}
 {
    "chubasco": 0,
    "ciudad": "HidalgodelParral",
@@ -1207,7 +1206,7 @@
    "soleado": 1,
    "tipo": "Parque",
    "tormenta": 1
-},
+}
 {
    "chubasco": 1,
    "ciudad": "Juarez",
@@ -1220,7 +1219,7 @@
    "soleado": 0,
    "tipo": "Puente",
    "tormenta": 1
-},
+}
 {
    "chubasco": 1,
    "ciudad": "NuevoCasasGrandes",
@@ -1233,7 +1232,7 @@
    "soleado": 0,
    "tipo": "Puente",
    "tormenta": 1
-},
+}
 {
    "chubasco": 0,
    "ciudad": "CiudadAcu\u00f1a",
@@ -1246,7 +1245,7 @@
    "soleado": 0,
    "tipo": "Playa",
    "tormenta": 0
-},
+}
 {
    "chubasco": 1,
    "ciudad": "Monclova",
@@ -1259,7 +1258,7 @@
    "soleado": 0,
    "tipo": "Museo",
    "tormenta": 0
-},
+}
 {
    "chubasco": 0,
    "ciudad": "Muzquiz",
@@ -1272,7 +1271,7 @@
    "soleado": 0,
    "tipo": "Zona Arqueologica",
    "tormenta": 0
-},
+}
 {
    "chubasco": 0,
    "ciudad": "PiedrasNegras",
@@ -1285,7 +1284,7 @@
    "soleado": 0,
    "tipo": "Puente",
    "tormenta": 0
-},
+}
 {
    "chubasco": 0,
    "ciudad": "Saltillo",
@@ -1298,7 +1297,7 @@
    "soleado": 0,
    "tipo": "Museo",
    "tormenta": 0
-},
+}
 {
    "chubasco": 0,
    "ciudad": "Torreon",
@@ -1311,7 +1310,7 @@
    "soleado": 1,
    "tipo": "Restaurante",
    "tormenta": 1
-},
+}
 {
    "chubasco": 0,
    "ciudad": "Colima",
@@ -1324,7 +1323,7 @@
    "soleado": 0,
    "tipo": "Restaurante",
    "tormenta": 0
-},
+}
 {
    "chubasco": 1,
    "ciudad": "Manzanillo",
@@ -1337,7 +1336,7 @@
    "soleado": 1,
    "tipo": "Zona Arqueologica",
    "tormenta": 0
-},
+}
 {
    "chubasco": 0,
    "ciudad": "Tecoman",
@@ -1350,7 +1349,7 @@
    "soleado": 1,
    "tipo": "Restaurante",
    "tormenta": 0
-},
+}
 {
    "chubasco": 0,
    "ciudad": "Durango",
@@ -1363,7 +1362,7 @@
    "soleado": 1,
    "tipo": "Restaurante",
    "tormenta": 0
-},
+}
 {
    "chubasco": 0,
    "ciudad": "CDMX",
@@ -1376,7 +1375,7 @@
    "soleado": 0,
    "tipo": "Playa",
    "tormenta": 0
-},
+}
 {
    "chubasco": 1,
    "ciudad": "Acambaro",
@@ -1389,7 +1388,7 @@
    "soleado": 1,
    "tipo": "Restaurante",
    "tormenta": 0
-},
+}
 {
    "chubasco": 1,
    "ciudad": "Celaya",
@@ -1402,7 +1401,7 @@
    "soleado": 0,
    "tipo": "Puente",
    "tormenta": 0
-},
+}
 {
    "chubasco": 1,
    "ciudad": "Guanajuato",
@@ -1415,7 +1414,7 @@
    "soleado": 1,
    "tipo": "Zona Arqueologica",
    "tormenta": 1
-},
+}
 {
    "chubasco": 1,
    "ciudad": "Irapuato",
@@ -1428,7 +1427,7 @@
    "soleado": 0,
    "tipo": "Parque",
    "tormenta": 0
-},
+}
 {
    "chubasco": 1,
    "ciudad": "Leon",
@@ -1441,7 +1440,7 @@
    "soleado": 1,
    "tipo": "Puente",
    "tormenta": 0
-},
+}
 {
    "chubasco": 1,
    "ciudad": "Salamanca",
@@ -1454,7 +1453,7 @@
    "soleado": 1,
    "tipo": "Museo",
    "tormenta": 0
-},
+}
 {
    "chubasco": 0,
    "ciudad": "SanMigueldeAllende",
@@ -1467,7 +1466,7 @@
    "soleado": 0,
    "tipo": "Puente",
    "tormenta": 0
-},
+}
 {
    "chubasco": 0,
    "ciudad": "Acapulco",
@@ -1480,7 +1479,7 @@
    "soleado": 1,
    "tipo": "Edificio",
    "tormenta": 0
-},
+}
 {
    "chubasco": 1,
    "ciudad": "Chilpancingo",
@@ -1493,7 +1492,7 @@
    "soleado": 1,
    "tipo": "Zona Arqueologica",
    "tormenta": 0
-},
+}
 {
    "chubasco": 1,
    "ciudad": "Iguala",
@@ -1506,7 +1505,7 @@
    "soleado": 1,
    "tipo": "Museo",
    "tormenta": 0
-},
+}
 {
    "chubasco": 0,
    "ciudad": "Pachuca",
@@ -1519,7 +1518,7 @@
    "soleado": 0,
    "tipo": "Museo",
    "tormenta": 0
-},
+}
 {
    "chubasco": 1,
    "ciudad": "Tulancingo",
@@ -1532,7 +1531,7 @@
    "soleado": 0,
    "tipo": "Zona Arqueologica",
    "tormenta": 0
-},
+}
 {
    "chubasco": 0,
    "ciudad": "Arandas",
@@ -1545,7 +1544,7 @@
    "soleado": 1,
    "tipo": "Parque",
    "tormenta": 1
-},
+}
 {
    "chubasco": 0,
    "ciudad": "Guadalajara",
@@ -1558,7 +1557,7 @@
    "soleado": 0,
    "tipo": "Museo",
    "tormenta": 1
-},
+}
 {
    "chubasco": 0,
    "ciudad": "Ocotlan",
@@ -1571,7 +1570,7 @@
    "soleado": 0,
    "tipo": "Zona Arqueologica",
    "tormenta": 0
-},
+}
 {
    "chubasco": 1,
    "ciudad": "PuertoVallarta",
@@ -1584,7 +1583,7 @@
    "soleado": 0,
    "tipo": "Playa",
    "tormenta": 1
-},
+}
 {
    "chubasco": 0,
    "ciudad": "Tlaquepaque",
@@ -1597,7 +1596,7 @@
    "soleado": 1,
    "tipo": "Zona Arqueologica",
    "tormenta": 1
-},
+}
 {
    "chubasco": 0,
    "ciudad": "Zapopan",
@@ -1610,7 +1609,7 @@
    "soleado": 1,
    "tipo": "Parque",
    "tormenta": 1
-},
+}
 {
    "chubasco": 1,
    "ciudad": "Nezahualcoyotl",
@@ -1623,7 +1622,7 @@
    "soleado": 1,
    "tipo": "Museo",
    "tormenta": 0
-},
+}
 {
    "chubasco": 0,
    "ciudad": "Tlalnepantla",
@@ -1636,7 +1635,7 @@
    "soleado": 0,
    "tipo": "Zona Arqueologica",
    "tormenta": 1
-},
+}
 {
    "chubasco": 0,
    "ciudad": "Toluca",
@@ -1649,7 +1648,7 @@
    "soleado": 1,
    "tipo": "Edificio",
    "tormenta": 1
-},
+}
 {
    "chubasco": 1,
    "ciudad": "Apatzingan",
@@ -1662,7 +1661,7 @@
    "soleado": 1,
    "tipo": "Edificio",
    "tormenta": 0
-},
+}
 {
    "chubasco": 1,
    "ciudad": "Ciudad Hidalgo",
@@ -1675,7 +1674,7 @@
    "soleado": 0,
    "tipo": "Edificio",
    "tormenta": 0
-},
+}
 {
    "chubasco": 0,
    "ciudad": "Morelia",
@@ -1688,7 +1687,7 @@
    "soleado": 1,
    "tipo": "Zona Arqueologica",
    "tormenta": 0
-},
+}
 {
    "chubasco": 0,
    "ciudad": "Zitacuaro",
@@ -1701,7 +1700,7 @@
    "soleado": 1,
    "tipo": "Edificio",
    "tormenta": 1
-},
+}
 {
    "chubasco": 1,
    "ciudad": "Cuernavaca",
@@ -1714,7 +1713,7 @@
    "soleado": 1,
    "tipo": "Puente",
    "tormenta": 1
-},
+}
 {
    "chubasco": 0,
    "ciudad": "Tepoztlan",
@@ -1727,7 +1726,7 @@
    "soleado": 0,
    "tipo": "Playa",
    "tormenta": 0
-},
+}
 {
    "chubasco": 0,
    "ciudad": "Tepic",
@@ -1740,7 +1739,7 @@
    "soleado": 1,
    "tipo": "Puente",
    "tormenta": 1
-},
+}
 {
    "chubasco": 0,
    "ciudad": "Monterrey",
@@ -1753,7 +1752,7 @@
    "soleado": 1,
    "tipo": "Restaurante",
    "tormenta": 1
-},
+}
 {
    "chubasco": 0,
    "ciudad": "Juchitan",
@@ -1766,7 +1765,7 @@
    "soleado": 0,
    "tipo": "Zona Arqueologica",
    "tormenta": 0
-},
+}
 {
    "chubasco": 0,
    "ciudad": "Oaxaca",
@@ -1779,7 +1778,7 @@
    "soleado": 0,
    "tipo": "Museo",
    "tormenta": 1
-},
+}
 {
    "chubasco": 1,
    "ciudad": "Cholula",
@@ -1792,7 +1791,7 @@
    "soleado": 0,
    "tipo": "Zona Arqueologica",
    "tormenta": 0
-},
+}
 {
    "chubasco": 1,
    "ciudad": "Matamoros",
@@ -1805,7 +1804,7 @@
    "soleado": 1,
    "tipo": "Edificio",
    "tormenta": 0
-},
+}
 {
    "chubasco": 0,
    "ciudad": "Puebla",
@@ -1818,7 +1817,7 @@
    "soleado": 1,
    "tipo": "Zona Arqueologica",
    "tormenta": 0
-},
+}
 {
    "chubasco": 1,
    "ciudad": "Queretaro",
@@ -1831,7 +1830,7 @@
    "soleado": 0,
    "tipo": "Parque",
    "tormenta": 1
-},
+}
 {
    "chubasco": 1,
    "ciudad": "Cancun",
@@ -1844,7 +1843,7 @@
    "soleado": 1,
    "tipo": "Parque",
    "tormenta": 1
-},
+}
 {
    "chubasco": 1,
    "ciudad": "Chetumal",
@@ -1857,7 +1856,7 @@
    "soleado": 0,
    "tipo": "Parque",
    "tormenta": 1
-},
+}
 {
    "chubasco": 0,
    "ciudad": "Matehuala",
@@ -1870,7 +1869,7 @@
    "soleado": 1,
    "tipo": "Playa",
    "tormenta": 0
-},
+}
 {
    "chubasco": 1,
    "ciudad": "San Luis Potosi",
@@ -1883,7 +1882,7 @@
    "soleado": 0,
    "tipo": "Museo",
    "tormenta": 1
-},
+}
 {
    "chubasco": 0,
    "ciudad": "Culiacan",
@@ -1896,7 +1895,7 @@
    "soleado": 1,
    "tipo": "Puente",
    "tormenta": 1
-},
+}
 {
    "chubasco": 0,
    "ciudad": "Mazatlan",
@@ -1909,7 +1908,7 @@
    "soleado": 1,
    "tipo": "Zona Arqueologica",
    "tormenta": 0
-},
+}
 {
    "chubasco": 0,
    "ciudad": "CiudadObregon",
@@ -1922,7 +1921,7 @@
    "soleado": 0,
    "tipo": "Playa",
    "tormenta": 0
-},
+}
 {
    "chubasco": 0,
    "ciudad": "Hermosillo",
@@ -1935,7 +1934,7 @@
    "soleado": 0,
    "tipo": "Zona Arqueologica",
    "tormenta": 1
-},
+}
 {
    "chubasco": 0,
    "ciudad": "Nogales",
@@ -1948,7 +1947,7 @@
    "soleado": 1,
    "tipo": "Puente",
    "tormenta": 0
-},
+}
 {
    "chubasco": 0,
    "ciudad": "SanLuis",
@@ -1961,7 +1960,7 @@
    "soleado": 0,
    "tipo": "Puente",
    "tormenta": 0
-},
+}
 {
    "chubasco": 1,
    "ciudad": "Villahermosa",
@@ -1974,7 +1973,7 @@
    "soleado": 1,
    "tipo": "Puente",
    "tormenta": 0
-},
+}
 {
    "chubasco": 0,
    "ciudad": "Tlaxcala",
@@ -1987,7 +1986,7 @@
    "soleado": 1,
    "tipo": "Museo",
    "tormenta": 1
-},
+}
 {
    "chubasco": 1,
    "ciudad": "Coatzacoalcos",
@@ -2000,7 +1999,7 @@
    "soleado": 1,
    "tipo": "Edificio",
    "tormenta": 0
-},
+}
 {
    "chubasco": 0,
    "ciudad": "Orizaba",
@@ -2013,7 +2012,7 @@
    "soleado": 0,
    "tipo": "Parque",
    "tormenta": 0
-},
+}
 {
    "chubasco": 1,
    "ciudad": "Xalapa",
@@ -2026,7 +2025,7 @@
    "soleado": 0,
    "tipo": "Playa",
    "tormenta": 0
-},
+}
 {
    "chubasco": 1,
    "ciudad": "Merida",
@@ -2039,7 +2038,7 @@
    "soleado": 1,
    "tipo": "Parque",
    "tormenta": 0
-},
+}
 {
    "chubasco": 0,
    "ciudad": "Zacatecas",
@@ -2052,7 +2051,7 @@
    "soleado": 1,
    "tipo": "Playa",
    "tormenta": 0
-},
+}
 {
    "chubasco": 1,
    "ciudad": "Aguascalientes",
@@ -2065,7 +2064,7 @@
    "soleado": 1,
    "tipo": "Zona Arqueologica",
    "tormenta": 0
-},
+}
 {
    "chubasco": 0,
    "ciudad": "Ensenada",
@@ -2078,7 +2077,7 @@
    "soleado": 0,
    "tipo": "Puente",
    "tormenta": 0
-},
+}
 {
    "chubasco": 0,
    "ciudad": "Mexicali",
@@ -2091,7 +2090,7 @@
    "soleado": 1,
    "tipo": "Edificio",
    "tormenta": 0
-},
+}
 {
    "chubasco": 0,
    "ciudad": "Tijuana",
@@ -2104,7 +2103,7 @@
    "soleado": 1,
    "tipo": "Puente",
    "tormenta": 0
-},
+}
 {
    "chubasco": 1,
    "ciudad": "LaPaz",
@@ -2117,7 +2116,7 @@
    "soleado": 0,
    "tipo": "Museo",
    "tormenta": 1
-},
+}
 {
    "chubasco": 1,
    "ciudad": "Campeche",
@@ -2130,7 +2129,7 @@
    "soleado": 1,
    "tipo": "Zona Arqueologica",
    "tormenta": 0
-},
+}
 {
    "chubasco": 1,
    "ciudad": "Comitan",
@@ -2143,7 +2142,7 @@
    "soleado": 0,
    "tipo": "Puente",
    "tormenta": 0
-},
+}
 {
    "chubasco": 0,
    "ciudad": "SanCristobaldelasCasas",
@@ -2156,7 +2155,7 @@
    "soleado": 1,
    "tipo": "Edificio",
    "tormenta": 0
-},
+}
 {
    "chubasco": 0,
    "ciudad": "Tapachula",
@@ -2169,7 +2168,7 @@
    "soleado": 0,
    "tipo": "Parque",
    "tormenta": 1
-},
+}
 {
    "chubasco": 1,
    "ciudad": "Tuxtla",
@@ -2182,7 +2181,7 @@
    "soleado": 0,
    "tipo": "Zona Arqueologica",
    "tormenta": 1
-},
+}
 {
    "chubasco": 1,
    "ciudad": "CasasGrandes",
@@ -2195,7 +2194,7 @@
    "soleado": 1,
    "tipo": "Playa",
    "tormenta": 1
-},
+}
 {
    "chubasco": 1,
    "ciudad": "Chihuahua",
@@ -2208,7 +2207,7 @@
    "soleado": 1,
    "tipo": "Zona Arqueologica",
    "tormenta": 0
-},
+}
 {
    "chubasco": 0,
    "ciudad": "CiudadDelicias",
@@ -2221,7 +2220,7 @@
    "soleado": 1,
    "tipo": "Restaurante",
    "tormenta": 0
-},
+}
 {
    "chubasco": 0,
    "ciudad": "HidalgodelParral",
@@ -2234,7 +2233,7 @@
    "soleado": 1,
    "tipo": "Zona Arqueologica",
    "tormenta": 0
-},
+}
 {
    "chubasco": 1,
    "ciudad": "Juarez",
@@ -2247,7 +2246,7 @@
    "soleado": 1,
    "tipo": "Restaurante",
    "tormenta": 1
-},
+}
 {
    "chubasco": 0,
    "ciudad": "NuevoCasasGrandes",
@@ -2260,7 +2259,7 @@
    "soleado": 1,
    "tipo": "Restaurante",
    "tormenta": 0
-},
+}
 {
    "chubasco": 1,
    "ciudad": "CiudadAcu\u00f1a",
@@ -2273,7 +2272,7 @@
    "soleado": 1,
    "tipo": "Restaurante",
    "tormenta": 0
-},
+}
 {
    "chubasco": 0,
    "ciudad": "Monclova",
@@ -2286,7 +2285,7 @@
    "soleado": 1,
    "tipo": "Parque",
    "tormenta": 0
-},
+}
 {
    "chubasco": 0,
    "ciudad": "Muzquiz",
@@ -2299,7 +2298,7 @@
    "soleado": 1,
    "tipo": "Zona Arqueologica",
    "tormenta": 1
-},
+}
 {
    "chubasco": 0,
    "ciudad": "PiedrasNegras",
@@ -2312,7 +2311,7 @@
    "soleado": 0,
    "tipo": "Edificio",
    "tormenta": 1
-},
+}
 {
    "chubasco": 0,
    "ciudad": "Saltillo",
@@ -2325,7 +2324,7 @@
    "soleado": 0,
    "tipo": "Restaurante",
    "tormenta": 0
-},
+}
 {
    "chubasco": 0,
    "ciudad": "Torreon",
@@ -2338,7 +2337,7 @@
    "soleado": 0,
    "tipo": "Museo",
    "tormenta": 0
-},
+}
 {
    "chubasco": 0,
    "ciudad": "Colima",
@@ -2351,7 +2350,7 @@
    "soleado": 1,
    "tipo": "Playa",
    "tormenta": 1
-},
+}
 {
    "chubasco": 1,
    "ciudad": "Manzanillo",
@@ -2364,7 +2363,7 @@
    "soleado": 1,
    "tipo": "Zona Arqueologica",
    "tormenta": 1
-},
+}
 {
    "chubasco": 1,
    "ciudad": "Tecoman",
@@ -2377,7 +2376,7 @@
    "soleado": 1,
    "tipo": "Edificio",
    "tormenta": 1
-},
+}
 {
    "chubasco": 1,
    "ciudad": "Durango",
@@ -2390,7 +2389,7 @@
    "soleado": 0,
    "tipo": "Parque",
    "tormenta": 1
-},
+}
 {
    "chubasco": 1,
    "ciudad": "CDMX",
@@ -2403,7 +2402,7 @@
    "soleado": 0,
    "tipo": "Puente",
    "tormenta": 1
-},
+}
 {
    "chubasco": 1,
    "ciudad": "Acambaro",
@@ -2416,7 +2415,7 @@
    "soleado": 1,
    "tipo": "Puente",
    "tormenta": 1
-},
+}
 {
    "chubasco": 1,
    "ciudad": "Celaya",
@@ -2429,7 +2428,7 @@
    "soleado": 1,
    "tipo": "Edificio",
    "tormenta": 0
-},
+}
 {
    "chubasco": 1,
    "ciudad": "Guanajuato",
@@ -2442,7 +2441,7 @@
    "soleado": 0,
    "tipo": "Playa",
    "tormenta": 1
-},
+}
 {
    "chubasco": 0,
    "ciudad": "Irapuato",
@@ -2455,7 +2454,7 @@
    "soleado": 0,
    "tipo": "Zona Arqueologica",
    "tormenta": 1
-},
+}
 {
    "chubasco": 0,
    "ciudad": "Leon",
@@ -2468,7 +2467,7 @@
    "soleado": 1,
    "tipo": "Parque",
    "tormenta": 0
-},
+}
 {
    "chubasco": 0,
    "ciudad": "Salamanca",
@@ -2481,7 +2480,7 @@
    "soleado": 1,
    "tipo": "Edificio",
    "tormenta": 1
-},
+}
 {
    "chubasco": 0,
    "ciudad": "SanMigueldeAllende",
@@ -2494,7 +2493,7 @@
    "soleado": 1,
    "tipo": "Puente",
    "tormenta": 1
-},
+}
 {
    "chubasco": 0,
    "ciudad": "Acapulco",
@@ -2507,7 +2506,7 @@
    "soleado": 0,
    "tipo": "Puente",
    "tormenta": 0
-},
+}
 {
    "chubasco": 1,
    "ciudad": "Chilpancingo",
@@ -2520,7 +2519,7 @@
    "soleado": 1,
    "tipo": "Restaurante",
    "tormenta": 0
-},
+}
 {
    "chubasco": 0,
    "ciudad": "Iguala",
@@ -2533,7 +2532,7 @@
    "soleado": 1,
    "tipo": "Parque",
    "tormenta": 1
-},
+}
 {
    "chubasco": 0,
    "ciudad": "Pachuca",
@@ -2546,7 +2545,7 @@
    "soleado": 0,
    "tipo": "Zona Arqueologica",
    "tormenta": 0
-},
+}
 {
    "chubasco": 1,
    "ciudad": "Tulancingo",
@@ -2559,7 +2558,7 @@
    "soleado": 1,
    "tipo": "Playa",
    "tormenta": 0
-},
+}
 {
    "chubasco": 1,
    "ciudad": "Arandas",
@@ -2572,7 +2571,7 @@
    "soleado": 0,
    "tipo": "Restaurante",
    "tormenta": 0
-},
+}
 {
    "chubasco": 1,
    "ciudad": "Guadalajara",
@@ -2585,7 +2584,7 @@
    "soleado": 0,
    "tipo": "Zona Arqueologica",
    "tormenta": 0
-},
+}
 {
    "chubasco": 0,
    "ciudad": "Ocotlan",
@@ -2598,7 +2597,7 @@
    "soleado": 1,
    "tipo": "Puente",
    "tormenta": 1
-},
+}
 {
    "chubasco": 1,
    "ciudad": "PuertoVallarta",
@@ -2611,7 +2610,7 @@
    "soleado": 1,
    "tipo": "Puente",
    "tormenta": 1
-},
+}
 {
    "chubasco": 0,
    "ciudad": "Tlaquepaque",
@@ -2624,7 +2623,7 @@
    "soleado": 0,
    "tipo": "Edificio",
    "tormenta": 1
-},
+}
 {
    "chubasco": 1,
    "ciudad": "Zapopan",
@@ -2637,7 +2636,7 @@
    "soleado": 0,
    "tipo": "Playa",
    "tormenta": 1
-},
+}
 {
    "chubasco": 0,
    "ciudad": "Nezahualcoyotl",
@@ -2650,7 +2649,7 @@
    "soleado": 1,
    "tipo": "Parque",
    "tormenta": 1
-},
+}
 {
    "chubasco": 0,
    "ciudad": "Tlalnepantla",
@@ -2663,7 +2662,7 @@
    "soleado": 1,
    "tipo": "Edificio",
    "tormenta": 0
-},
+}
 {
    "chubasco": 0,
    "ciudad": "Toluca",
@@ -2676,7 +2675,7 @@
    "soleado": 0,
    "tipo": "Playa",
    "tormenta": 0
-},
+}
 {
    "chubasco": 1,
    "ciudad": "Apatzingan",
@@ -2689,7 +2688,7 @@
    "soleado": 1,
    "tipo": "Playa",
    "tormenta": 0
-},
+}
 {
    "chubasco": 0,
    "ciudad": "Ciudad Hidalgo",
@@ -2702,7 +2701,7 @@
    "soleado": 0,
    "tipo": "Restaurante",
    "tormenta": 0
-},
+}
 {
    "chubasco": 0,
    "ciudad": "Morelia",
@@ -2715,7 +2714,7 @@
    "soleado": 0,
    "tipo": "Playa",
    "tormenta": 0
-},
+}
 {
    "chubasco": 0,
    "ciudad": "Zitacuaro",
@@ -2728,7 +2727,7 @@
    "soleado": 1,
    "tipo": "Zona Arqueologica",
    "tormenta": 0
-},
+}
 {
    "chubasco": 0,
    "ciudad": "Cuernavaca",
@@ -2741,7 +2740,7 @@
    "soleado": 0,
    "tipo": "Playa",
    "tormenta": 1
-},
+}
 {
    "chubasco": 1,
    "ciudad": "Tepoztlan",
@@ -2754,7 +2753,7 @@
    "soleado": 1,
    "tipo": "Edificio",
    "tormenta": 0
-},
+}
 {
    "chubasco": 0,
    "ciudad": "Tepic",
@@ -2767,7 +2766,7 @@
    "soleado": 1,
    "tipo": "Puente",
    "tormenta": 0
-},
+}
 {
    "chubasco": 1,
    "ciudad": "Monterrey",
@@ -2780,7 +2779,7 @@
    "soleado": 1,
    "tipo": "Playa",
    "tormenta": 1
-},
+}
 {
    "chubasco": 0,
    "ciudad": "Juchitan",
@@ -2793,7 +2792,7 @@
    "soleado": 0,
    "tipo": "Edificio",
    "tormenta": 1
-},
+}
 {
    "chubasco": 0,
    "ciudad": "Oaxaca",
@@ -2806,7 +2805,7 @@
    "soleado": 1,
    "tipo": "Zona Arqueologica",
    "tormenta": 0
-},
+}
 {
    "chubasco": 1,
    "ciudad": "Cholula",
@@ -2819,7 +2818,7 @@
    "soleado": 0,
    "tipo": "Restaurante",
    "tormenta": 0
-},
+}
 {
    "chubasco": 0,
    "ciudad": "Matamoros",
@@ -2832,7 +2831,7 @@
    "soleado": 0,
    "tipo": "Zona Arqueologica",
    "tormenta": 0
-},
+}
 {
    "chubasco": 0,
    "ciudad": "Puebla",
@@ -2845,7 +2844,7 @@
    "soleado": 0,
    "tipo": "Edificio",
    "tormenta": 1
-},
+}
 {
    "chubasco": 1,
    "ciudad": "Queretaro",
@@ -2858,7 +2857,7 @@
    "soleado": 1,
    "tipo": "Museo",
    "tormenta": 0
-},
+}
 {
    "chubasco": 0,
    "ciudad": "Cancun",
@@ -2871,7 +2870,7 @@
    "soleado": 1,
    "tipo": "Parque",
    "tormenta": 0
-},
+}
 {
    "chubasco": 1,
    "ciudad": "Chetumal",
@@ -2884,7 +2883,7 @@
    "soleado": 1,
    "tipo": "Playa",
    "tormenta": 1
-},
+}
 {
    "chubasco": 0,
    "ciudad": "Matehuala",
@@ -2897,7 +2896,7 @@
    "soleado": 1,
    "tipo": "Parque",
    "tormenta": 0
-},
+}
 {
    "chubasco": 1,
    "ciudad": "San Luis Potosi",
@@ -2910,7 +2909,7 @@
    "soleado": 1,
    "tipo": "Edificio",
    "tormenta": 1
-},
+}
 {
    "chubasco": 1,
    "ciudad": "Culiacan",
@@ -2923,7 +2922,7 @@
    "soleado": 1,
    "tipo": "Puente",
    "tormenta": 0
-},
+}
 {
    "chubasco": 0,
    "ciudad": "Mazatlan",
@@ -2936,7 +2935,7 @@
    "soleado": 0,
    "tipo": "Puente",
    "tormenta": 0
-},
+}
 {
    "chubasco": 1,
    "ciudad": "CiudadObregon",
@@ -2949,7 +2948,7 @@
    "soleado": 0,
    "tipo": "Museo",
    "tormenta": 1
-},
+}
 {
    "chubasco": 1,
    "ciudad": "Hermosillo",
@@ -2962,7 +2961,7 @@
    "soleado": 1,
    "tipo": "Zona Arqueologica",
    "tormenta": 1
-},
+}
 {
    "chubasco": 1,
    "ciudad": "Nogales",
@@ -2975,7 +2974,7 @@
    "soleado": 1,
    "tipo": "Zona Arqueologica",
    "tormenta": 1
-},
+}
 {
    "chubasco": 1,
    "ciudad": "SanLuis",
@@ -2988,7 +2987,7 @@
    "soleado": 1,
    "tipo": "Museo",
    "tormenta": 1
-},
+}
 {
    "chubasco": 0,
    "ciudad": "Villahermosa",
@@ -3001,7 +3000,7 @@
    "soleado": 0,
    "tipo": "Parque",
    "tormenta": 0
-},
+}
 {
    "chubasco": 1,
    "ciudad": "Tlaxcala",
@@ -3014,7 +3013,7 @@
    "soleado": 0,
    "tipo": "Museo",
    "tormenta": 0
-},
+}
 {
    "chubasco": 0,
    "ciudad": "Coatzacoalcos",
@@ -3027,7 +3026,7 @@
    "soleado": 1,
    "tipo": "Zona Arqueologica",
    "tormenta": 0
-},
+}
 {
    "chubasco": 0,
    "ciudad": "Orizaba",
@@ -3040,7 +3039,7 @@
    "soleado": 1,
    "tipo": "Playa",
    "tormenta": 1
-},
+}
 {
    "chubasco": 0,
    "ciudad": "Xalapa",
@@ -3053,7 +3052,7 @@
    "soleado": 0,
    "tipo": "Playa",
    "tormenta": 1
-},
+}
 {
    "chubasco": 1,
    "ciudad": "Merida",
@@ -3066,7 +3065,7 @@
    "soleado": 1,
    "tipo": "Playa",
    "tormenta": 1
-},
+}
 {
    "chubasco": 1,
    "ciudad": "Zacatecas",
@@ -3079,7 +3078,7 @@
    "soleado": 0,
    "tipo": "Restaurante",
    "tormenta": 1
-},
+}
 {
    "chubasco": 1,
    "ciudad": "Aguascalientes",
@@ -3092,7 +3091,7 @@
    "soleado": 0,
    "tipo": "Parque",
    "tormenta": 0
-},
+}
 {
    "chubasco": 0,
    "ciudad": "Ensenada",
@@ -3105,7 +3104,7 @@
    "soleado": 1,
    "tipo": "Restaurante",
    "tormenta": 1
-},
+}
 {
    "chubasco": 0,
    "ciudad": "Mexicali",
@@ -3118,7 +3117,7 @@
    "soleado": 0,
    "tipo": "Restaurante",
    "tormenta": 0
-},
+}
 {
    "chubasco": 1,
    "ciudad": "Tijuana",
@@ -3131,7 +3130,7 @@
    "soleado": 0,
    "tipo": "Zona Arqueologica",
    "tormenta": 0
-},
+}
 {
    "chubasco": 1,
    "ciudad": "LaPaz",
@@ -3144,7 +3143,7 @@
    "soleado": 1,
    "tipo": "Restaurante",
    "tormenta": 0
-},
+}
 {
    "chubasco": 0,
    "ciudad": "Campeche",
@@ -3157,7 +3156,7 @@
    "soleado": 1,
    "tipo": "Playa",
    "tormenta": 1
-},
+}
 {
    "chubasco": 0,
    "ciudad": "Comitan",
@@ -3170,7 +3169,7 @@
    "soleado": 0,
    "tipo": "Puente",
    "tormenta": 1
-},
+}
 {
    "chubasco": 0,
    "ciudad": "SanCristobaldelasCasas",
@@ -3183,7 +3182,7 @@
    "soleado": 0,
    "tipo": "Playa",
    "tormenta": 1
-},
+}
 {
    "chubasco": 0,
    "ciudad": "Tapachula",
@@ -3196,7 +3195,7 @@
    "soleado": 0,
    "tipo": "Parque",
    "tormenta": 0
-},
+}
 {
    "chubasco": 1,
    "ciudad": "Tuxtla",
@@ -3209,7 +3208,7 @@
    "soleado": 0,
    "tipo": "Puente",
    "tormenta": 1
-},
+}
 {
    "chubasco": 1,
    "ciudad": "CasasGrandes",
@@ -3222,7 +3221,7 @@
    "soleado": 0,
    "tipo": "Puente",
    "tormenta": 1
-},
+}
 {
    "chubasco": 1,
    "ciudad": "Chihuahua",
@@ -3235,7 +3234,7 @@
    "soleado": 0,
    "tipo": "Museo",
    "tormenta": 0
-},
+}
 {
    "chubasco": 0,
    "ciudad": "CiudadDelicias",
@@ -3248,7 +3247,7 @@
    "soleado": 0,
    "tipo": "Edificio",
    "tormenta": 0
-},
+}
 {
    "chubasco": 0,
    "ciudad": "HidalgodelParral",
@@ -3261,7 +3260,7 @@
    "soleado": 1,
    "tipo": "Restaurante",
    "tormenta": 0
-},
+}
 {
    "chubasco": 0,
    "ciudad": "Juarez",
@@ -3274,7 +3273,7 @@
    "soleado": 0,
    "tipo": "Zona Arqueologica",
    "tormenta": 1
-},
+}
 {
    "chubasco": 0,
    "ciudad": "NuevoCasasGrandes",
@@ -3287,7 +3286,7 @@
    "soleado": 1,
    "tipo": "Playa",
    "tormenta": 1
-},
+}
 {
    "chubasco": 1,
    "ciudad": "CiudadAcu\u00f1a",
@@ -3300,7 +3299,7 @@
    "soleado": 0,
    "tipo": "Zona Arqueologica",
    "tormenta": 1
-},
+}
 {
    "chubasco": 0,
    "ciudad": "Monclova",
@@ -3313,7 +3312,7 @@
    "soleado": 0,
    "tipo": "Puente",
    "tormenta": 0
-},
+}
 {
    "chubasco": 0,
    "ciudad": "Muzquiz",
@@ -3326,7 +3325,7 @@
    "soleado": 0,
    "tipo": "Museo",
    "tormenta": 0
-},
+}
 {
    "chubasco": 1,
    "ciudad": "PiedrasNegras",
@@ -3339,7 +3338,7 @@
    "soleado": 0,
    "tipo": "Edificio",
    "tormenta": 0
-},
+}
 {
    "chubasco": 0,
    "ciudad": "Saltillo",
@@ -3352,7 +3351,7 @@
    "soleado": 0,
    "tipo": "Puente",
    "tormenta": 0
-},
+}
 {
    "chubasco": 1,
    "ciudad": "Torreon",
@@ -3365,7 +3364,7 @@
    "soleado": 0,
    "tipo": "Parque",
    "tormenta": 0
-},
+}
 {
    "chubasco": 1,
    "ciudad": "Colima",
@@ -3378,7 +3377,7 @@
    "soleado": 0,
    "tipo": "Museo",
    "tormenta": 1
-},
+}
 {
    "chubasco": 1,
    "ciudad": "Manzanillo",
@@ -3391,7 +3390,7 @@
    "soleado": 0,
    "tipo": "Edificio",
    "tormenta": 1
-},
+}
 {
    "chubasco": 0,
    "ciudad": "Tecoman",
@@ -3404,7 +3403,7 @@
    "soleado": 1,
    "tipo": "Zona Arqueologica",
    "tormenta": 1
-},
+}
 {
    "chubasco": 1,
    "ciudad": "Durango",
@@ -3417,7 +3416,7 @@
    "soleado": 1,
    "tipo": "Playa",
    "tormenta": 1
-},
+}
 {
    "chubasco": 1,
    "ciudad": "CDMX",
@@ -3430,7 +3429,7 @@
    "soleado": 0,
    "tipo": "Zona Arqueologica",
    "tormenta": 0
-},
+}
 {
    "chubasco": 1,
    "ciudad": "Acambaro",
@@ -3443,7 +3442,7 @@
    "soleado": 0,
    "tipo": "Restaurante",
    "tormenta": 1
-},
+}
 {
    "chubasco": 1,
    "ciudad": "Celaya",
@@ -3456,7 +3455,7 @@
    "soleado": 0,
    "tipo": "Restaurante",
    "tormenta": 0
-},
+}
 {
    "chubasco": 1,
    "ciudad": "Guanajuato",
@@ -3469,7 +3468,7 @@
    "soleado": 1,
    "tipo": "Museo",
    "tormenta": 1
-},
+}
 {
    "chubasco": 0,
    "ciudad": "Irapuato",
@@ -3482,7 +3481,7 @@
    "soleado": 0,
    "tipo": "Museo",
    "tormenta": 0
-},
+}
 {
    "chubasco": 0,
    "ciudad": "Leon",
@@ -3495,7 +3494,7 @@
    "soleado": 0,
    "tipo": "Parque",
    "tormenta": 0
-},
+}
 {
    "chubasco": 0,
    "ciudad": "Salamanca",
@@ -3508,7 +3507,7 @@
    "soleado": 0,
    "tipo": "Edificio",
    "tormenta": 1
-},
+}
 {
    "chubasco": 0,
    "ciudad": "SanMigueldeAllende",
@@ -3521,7 +3520,7 @@
    "soleado": 0,
    "tipo": "Museo",
    "tormenta": 0
-},
+}
 {
    "chubasco": 1,
    "ciudad": "Acapulco",
@@ -3534,7 +3533,7 @@
    "soleado": 0,
    "tipo": "Museo",
    "tormenta": 0
-},
+}
 {
    "chubasco": 0,
    "ciudad": "Chilpancingo",
@@ -3547,7 +3546,7 @@
    "soleado": 1,
    "tipo": "Puente",
    "tormenta": 0
-},
+}
 {
    "chubasco": 0,
    "ciudad": "Iguala",
@@ -3560,7 +3559,7 @@
    "soleado": 1,
    "tipo": "Zona Arqueologica",
    "tormenta": 1
-},
+}
 {
    "chubasco": 1,
    "ciudad": "Pachuca",
@@ -3573,7 +3572,7 @@
    "soleado": 1,
    "tipo": "Puente",
    "tormenta": 1
-},
+}
 {
    "chubasco": 0,
    "ciudad": "Tulancingo",
@@ -3586,7 +3585,7 @@
    "soleado": 0,
    "tipo": "Edificio",
    "tormenta": 1
-},
+}
 {
    "chubasco": 1,
    "ciudad": "Arandas",
@@ -3599,7 +3598,7 @@
    "soleado": 1,
    "tipo": "Museo",
    "tormenta": 0
-},
+}
 {
    "chubasco": 0,
    "ciudad": "Guadalajara",
@@ -3612,7 +3611,7 @@
    "soleado": 0,
    "tipo": "Museo",
    "tormenta": 0
-},
+}
 {
    "chubasco": 1,
    "ciudad": "Ocotlan",
@@ -3625,7 +3624,7 @@
    "soleado": 0,
    "tipo": "Edificio",
    "tormenta": 1
-},
+}
 {
    "chubasco": 0,
    "ciudad": "PuertoVallarta",
@@ -3638,7 +3637,7 @@
    "soleado": 1,
    "tipo": "Zona Arqueologica",
    "tormenta": 1
-},
+}
 {
    "chubasco": 1,
    "ciudad": "Tlaquepaque",
@@ -3651,7 +3650,7 @@
    "soleado": 0,
    "tipo": "Restaurante",
    "tormenta": 0
-},
+}
 {
    "chubasco": 0,
    "ciudad": "Zapopan",
@@ -3664,7 +3663,7 @@
    "soleado": 1,
    "tipo": "Museo",
    "tormenta": 1
-},
+}
 {
    "chubasco": 1,
    "ciudad": "Nezahualcoyotl",
@@ -3677,7 +3676,7 @@
    "soleado": 0,
    "tipo": "Zona Arqueologica",
    "tormenta": 1
-},
+}
 {
    "chubasco": 1,
    "ciudad": "Tlalnepantla",
@@ -3690,7 +3689,7 @@
    "soleado": 0,
    "tipo": "Restaurante",
    "tormenta": 0
-},
+}
 {
    "chubasco": 1,
    "ciudad": "Toluca",
@@ -3703,7 +3702,7 @@
    "soleado": 1,
    "tipo": "Zona Arqueologica",
    "tormenta": 0
-},
+}
 {
    "chubasco": 1,
    "ciudad": "Apatzingan",
@@ -3716,7 +3715,7 @@
    "soleado": 0,
    "tipo": "Restaurante",
    "tormenta": 1
-},
+}
 {
    "chubasco": 1,
    "ciudad": "Ciudad Hidalgo",
@@ -3729,7 +3728,7 @@
    "soleado": 1,
    "tipo": "Restaurante",
    "tormenta": 1
-},
+}
 {
    "chubasco": 0,
    "ciudad": "Morelia",
@@ -3742,7 +3741,7 @@
    "soleado": 1,
    "tipo": "Zona Arqueologica",
    "tormenta": 0
-},
+}
 {
    "chubasco": 0,
    "ciudad": "Zitacuaro",
@@ -3755,7 +3754,7 @@
    "soleado": 1,
    "tipo": "Puente",
    "tormenta": 1
-},
+}
 {
    "chubasco": 0,
    "ciudad": "Cuernavaca",
@@ -3768,7 +3767,7 @@
    "soleado": 1,
    "tipo": "Restaurante",
    "tormenta": 1
-},
+}
 {
    "chubasco": 0,
    "ciudad": "Tepoztlan",
@@ -3781,7 +3780,7 @@
    "soleado": 1,
    "tipo": "Restaurante",
    "tormenta": 1
-},
+}
 {
    "chubasco": 1,
    "ciudad": "Tepic",
@@ -3794,7 +3793,7 @@
    "soleado": 1,
    "tipo": "Restaurante",
    "tormenta": 0
-},
+}
 {
    "chubasco": 1,
    "ciudad": "Monterrey",
@@ -3807,7 +3806,7 @@
    "soleado": 0,
    "tipo": "Edificio",
    "tormenta": 0
-},
+}
 {
    "chubasco": 1,
    "ciudad": "Juchitan",
@@ -3820,7 +3819,7 @@
    "soleado": 0,
    "tipo": "Museo",
    "tormenta": 0
-},
+}
 {
    "chubasco": 0,
    "ciudad": "Oaxaca",
@@ -3833,7 +3832,7 @@
    "soleado": 1,
    "tipo": "Museo",
    "tormenta": 1
-},
+}
 {
    "chubasco": 1,
    "ciudad": "Cholula",
@@ -3846,7 +3845,7 @@
    "soleado": 1,
    "tipo": "Museo",
    "tormenta": 0
-},
+}
 {
    "chubasco": 0,
    "ciudad": "Matamoros",
@@ -3859,7 +3858,7 @@
    "soleado": 0,
    "tipo": "Edificio",
    "tormenta": 1
-},
+}
 {
    "chubasco": 0,
    "ciudad": "Puebla",
@@ -3872,7 +3871,7 @@
    "soleado": 1,
    "tipo": "Parque",
    "tormenta": 1
-},
+}
 {
    "chubasco": 0,
    "ciudad": "Queretaro",
@@ -3885,7 +3884,7 @@
    "soleado": 1,
    "tipo": "Parque",
    "tormenta": 0
-},
+}
 {
    "chubasco": 1,
    "ciudad": "Cancun",
@@ -3898,7 +3897,7 @@
    "soleado": 0,
    "tipo": "Restaurante",
    "tormenta": 1
-},
+}
 {
    "chubasco": 1,
    "ciudad": "Chetumal",
@@ -3911,7 +3910,7 @@
    "soleado": 1,
    "tipo": "Parque",
    "tormenta": 0
-},
+}
 {
    "chubasco": 1,
    "ciudad": "Matehuala",
@@ -3924,7 +3923,7 @@
    "soleado": 0,
    "tipo": "Playa",
    "tormenta": 1
-},
+}
 {
    "chubasco": 0,
    "ciudad": "San Luis Potosi",
@@ -3937,7 +3936,7 @@
    "soleado": 1,
    "tipo": "Edificio",
    "tormenta": 0
-},
+}
 {
    "chubasco": 1,
    "ciudad": "Culiacan",
@@ -3950,7 +3949,7 @@
    "soleado": 1,
    "tipo": "Restaurante",
    "tormenta": 0
-},
+}
 {
    "chubasco": 1,
    "ciudad": "Mazatlan",
@@ -3963,7 +3962,7 @@
    "soleado": 1,
    "tipo": "Parque",
    "tormenta": 0
-},
+}
 {
    "chubasco": 0,
    "ciudad": "CiudadObregon",
@@ -3976,7 +3975,7 @@
    "soleado": 0,
    "tipo": "Museo",
    "tormenta": 1
-},
+}
 {
    "chubasco": 0,
    "ciudad": "Hermosillo",
@@ -3989,7 +3988,7 @@
    "soleado": 0,
    "tipo": "Zona Arqueologica",
    "tormenta": 0
-},
+}
 {
    "chubasco": 1,
    "ciudad": "Nogales",
@@ -4002,7 +4001,7 @@
    "soleado": 0,
    "tipo": "Museo",
    "tormenta": 0
-},
+}
 {
    "chubasco": 1,
    "ciudad": "SanLuis",
@@ -4015,7 +4014,7 @@
    "soleado": 0,
    "tipo": "Restaurante",
    "tormenta": 0
-},
+}
 {
    "chubasco": 1,
    "ciudad": "Villahermosa",
@@ -4028,7 +4027,7 @@
    "soleado": 0,
    "tipo": "Puente",
    "tormenta": 0
-},
+}
 {
    "chubasco": 0,
    "ciudad": "Tlaxcala",
@@ -4041,7 +4040,7 @@
    "soleado": 0,
    "tipo": "Puente",
    "tormenta": 1
-},
+}
 {
    "chubasco": 0,
    "ciudad": "Coatzacoalcos",
@@ -4054,7 +4053,7 @@
    "soleado": 1,
    "tipo": "Edificio",
    "tormenta": 1
-},
+}
 {
    "chubasco": 1,
    "ciudad": "Orizaba",
@@ -4067,7 +4066,7 @@
    "soleado": 1,
    "tipo": "Restaurante",
    "tormenta": 1
-},
+}
 {
    "chubasco": 1,
    "ciudad": "Xalapa",
@@ -4080,7 +4079,7 @@
    "soleado": 1,
    "tipo": "Puente",
    "tormenta": 1
-},
+}
 {
    "chubasco": 0,
    "ciudad": "Merida",
@@ -4093,7 +4092,7 @@
    "soleado": 1,
    "tipo": "Zona Arqueologica",
    "tormenta": 0
-},
+}
 {
    "chubasco": 1,
    "ciudad": "Zacatecas",
@@ -4106,7 +4105,7 @@
    "soleado": 1,
    "tipo": "Restaurante",
    "tormenta": 1
-},
+}
 {
    "chubasco": 1,
    "ciudad": "Aguascalientes",
@@ -4119,7 +4118,7 @@
    "soleado": 0,
    "tipo": "Puente",
    "tormenta": 1
-},
+}
 {
    "chubasco": 1,
    "ciudad": "Ensenada",
@@ -4132,7 +4131,7 @@
    "soleado": 0,
    "tipo": "Zona Arqueologica",
    "tormenta": 1
-},
+}
 {
    "chubasco": 1,
    "ciudad": "Mexicali",
@@ -4145,7 +4144,7 @@
    "soleado": 1,
    "tipo": "Restaurante",
    "tormenta": 1
-},
+}
 {
    "chubasco": 0,
    "ciudad": "Tijuana",
@@ -4158,7 +4157,7 @@
    "soleado": 0,
    "tipo": "Parque",
    "tormenta": 1
-},
+}
 {
    "chubasco": 0,
    "ciudad": "LaPaz",
@@ -4171,7 +4170,7 @@
    "soleado": 0,
    "tipo": "Museo",
    "tormenta": 0
-},
+}
 {
    "chubasco": 0,
    "ciudad": "Campeche",
@@ -4184,7 +4183,7 @@
    "soleado": 0,
    "tipo": "Museo",
    "tormenta": 0
-},
+}
 {
    "chubasco": 0,
    "ciudad": "Comitan",
@@ -4197,7 +4196,7 @@
    "soleado": 0,
    "tipo": "Restaurante",
    "tormenta": 0
-},
+}
 {
    "chubasco": 0,
    "ciudad": "SanCristobaldelasCasas",
@@ -4210,7 +4209,7 @@
    "soleado": 1,
    "tipo": "Parque",
    "tormenta": 1
-},
+}
 {
    "chubasco": 0,
    "ciudad": "Tapachula",
@@ -4223,7 +4222,7 @@
    "soleado": 1,
    "tipo": "Playa",
    "tormenta": 1
-},
+}
 {
    "chubasco": 1,
    "ciudad": "Tuxtla",
@@ -4236,7 +4235,7 @@
    "soleado": 0,
    "tipo": "Museo",
    "tormenta": 1
-},
+}
 {
    "chubasco": 0,
    "ciudad": "CasasGrandes",
@@ -4249,7 +4248,7 @@
    "soleado": 1,
    "tipo": "Puente",
    "tormenta": 1
-},
+}
 {
    "chubasco": 1,
    "ciudad": "Chihuahua",
@@ -4262,7 +4261,7 @@
    "soleado": 0,
    "tipo": "Restaurante",
    "tormenta": 0
-},
+}
 {
    "chubasco": 0,
    "ciudad": "CiudadDelicias",
@@ -4275,7 +4274,7 @@
    "soleado": 0,
    "tipo": "Museo",
    "tormenta": 1
-},
+}
 {
    "chubasco": 1,
    "ciudad": "HidalgodelParral",
@@ -4288,7 +4287,7 @@
    "soleado": 1,
    "tipo": "Parque",
    "tormenta": 1
-},
+}
 {
    "chubasco": 1,
    "ciudad": "Juarez",
@@ -4301,7 +4300,7 @@
    "soleado": 0,
    "tipo": "Puente",
    "tormenta": 0
-},
+}
 {
    "chubasco": 1,
    "ciudad": "NuevoCasasGrandes",
@@ -4314,7 +4313,7 @@
    "soleado": 0,
    "tipo": "Museo",
    "tormenta": 1
-},
+}
 {
    "chubasco": 1,
    "ciudad": "CiudadAcu\u00f1a",
@@ -4327,7 +4326,7 @@
    "soleado": 1,
    "tipo": "Zona Arqueologica",
    "tormenta": 0
-},
+}
 {
    "chubasco": 1,
    "ciudad": "Monclova",
@@ -4340,7 +4339,7 @@
    "soleado": 0,
    "tipo": "Edificio",
    "tormenta": 1
-},
+}
 {
    "chubasco": 0,
    "ciudad": "Muzquiz",
@@ -4353,7 +4352,7 @@
    "soleado": 0,
    "tipo": "Playa",
    "tormenta": 0
-},
+}
 {
    "chubasco": 1,
    "ciudad": "PiedrasNegras",
@@ -4366,7 +4365,7 @@
    "soleado": 0,
    "tipo": "Museo",
    "tormenta": 0
-},
+}
 {
    "chubasco": 1,
    "ciudad": "Saltillo",
@@ -4379,7 +4378,7 @@
    "soleado": 1,
    "tipo": "Zona Arqueologica",
    "tormenta": 0
-},
+}
 {
    "chubasco": 0,
    "ciudad": "Torreon",
@@ -4392,7 +4391,7 @@
    "soleado": 0,
    "tipo": "Puente",
    "tormenta": 1
-},
+}
 {
    "chubasco": 0,
    "ciudad": "Colima",
@@ -4405,7 +4404,7 @@
    "soleado": 1,
    "tipo": "Zona Arqueologica",
    "tormenta": 1
-},
+}
 {
    "chubasco": 1,
    "ciudad": "Manzanillo",
@@ -4418,7 +4417,7 @@
    "soleado": 0,
    "tipo": "Playa",
    "tormenta": 0
-},
+}
 {
    "chubasco": 0,
    "ciudad": "Tecoman",
@@ -4431,7 +4430,7 @@
    "soleado": 1,
    "tipo": "Puente",
    "tormenta": 0
-},
+}
 {
    "chubasco": 0,
    "ciudad": "Durango",
@@ -4444,7 +4443,7 @@
    "soleado": 0,
    "tipo": "Puente",
    "tormenta": 1
-},
+}
 {
    "chubasco": 0,
    "ciudad": "CDMX",
@@ -4457,7 +4456,7 @@
    "soleado": 1,
    "tipo": "Restaurante",
    "tormenta": 1
-},
+}
 {
    "chubasco": 0,
    "ciudad": "Acambaro",
@@ -4470,7 +4469,7 @@
    "soleado": 0,
    "tipo": "Playa",
    "tormenta": 0
-},
+}
 {
    "chubasco": 1,
    "ciudad": "Celaya",
@@ -4483,7 +4482,7 @@
    "soleado": 0,
    "tipo": "Parque",
    "tormenta": 1
-},
+}
 {
    "chubasco": 0,
    "ciudad": "Guanajuato",
@@ -4496,7 +4495,7 @@
    "soleado": 1,
    "tipo": "Restaurante",
    "tormenta": 1
-},
+}
 {
    "chubasco": 1,
    "ciudad": "Irapuato",
@@ -4509,7 +4508,7 @@
    "soleado": 1,
    "tipo": "Puente",
    "tormenta": 1
-},
+}
 {
    "chubasco": 1,
    "ciudad": "Leon",
@@ -4522,7 +4521,7 @@
    "soleado": 0,
    "tipo": "Museo",
    "tormenta": 0
-},
+}
 {
    "chubasco": 0,
    "ciudad": "Salamanca",
@@ -4535,7 +4534,7 @@
    "soleado": 0,
    "tipo": "Edificio",
    "tormenta": 0
-},
+}
 {
    "chubasco": 1,
    "ciudad": "SanMigueldeAllende",
@@ -4548,7 +4547,7 @@
    "soleado": 0,
    "tipo": "Museo",
    "tormenta": 0
-},
+}
 {
    "chubasco": 0,
    "ciudad": "Acapulco",
@@ -4561,7 +4560,7 @@
    "soleado": 0,
    "tipo": "Edificio",
    "tormenta": 1
-},
+}
 {
    "chubasco": 0,
    "ciudad": "Chilpancingo",
@@ -4574,7 +4573,7 @@
    "soleado": 1,
    "tipo": "Museo",
    "tormenta": 0
-},
+}
 {
    "chubasco": 1,
    "ciudad": "Iguala",
@@ -4587,7 +4586,7 @@
    "soleado": 1,
    "tipo": "Museo",
    "tormenta": 1
-},
+}
 {
    "chubasco": 1,
    "ciudad": "Pachuca",
@@ -4600,7 +4599,7 @@
    "soleado": 1,
    "tipo": "Playa",
    "tormenta": 0
-},
+}
 {
    "chubasco": 1,
    "ciudad": "Tulancingo",
@@ -4613,7 +4612,7 @@
    "soleado": 1,
    "tipo": "Parque",
    "tormenta": 1
-},
+}
 {
    "chubasco": 1,
    "ciudad": "Arandas",
@@ -4626,7 +4625,7 @@
    "soleado": 0,
    "tipo": "Playa",
    "tormenta": 1
-},
+}
 {
    "chubasco": 0,
    "ciudad": "Guadalajara",
@@ -4639,7 +4638,7 @@
    "soleado": 0,
    "tipo": "Playa",
    "tormenta": 0
-},
+}
 {
    "chubasco": 1,
    "ciudad": "Ocotlan",
@@ -4652,7 +4651,7 @@
    "soleado": 1,
    "tipo": "Puente",
    "tormenta": 1
-},
+}
 {
    "chubasco": 0,
    "ciudad": "PuertoVallarta",
@@ -4665,7 +4664,7 @@
    "soleado": 0,
    "tipo": "Parque",
    "tormenta": 1
-},
+}
 {
    "chubasco": 1,
    "ciudad": "Tlaquepaque",
@@ -4678,7 +4677,7 @@
    "soleado": 1,
    "tipo": "Museo",
    "tormenta": 1
-},
+}
 {
    "chubasco": 1,
    "ciudad": "Zapopan",
@@ -4691,7 +4690,7 @@
    "soleado": 0,
    "tipo": "Restaurante",
    "tormenta": 0
-},
+}
 {
    "chubasco": 1,
    "ciudad": "Nezahualcoyotl",
@@ -4704,7 +4703,7 @@
    "soleado": 1,
    "tipo": "Playa",
    "tormenta": 0
-},
+}
 {
    "chubasco": 0,
    "ciudad": "Tlalnepantla",
@@ -4717,7 +4716,7 @@
    "soleado": 0,
    "tipo": "Puente",
    "tormenta": 0
-},
+}
 {
    "chubasco": 1,
    "ciudad": "Toluca",
@@ -4730,7 +4729,7 @@
    "soleado": 1,
    "tipo": "Playa",
    "tormenta": 0
-},
+}
 {
    "chubasco": 1,
    "ciudad": "Apatzingan",
@@ -4743,7 +4742,7 @@
    "soleado": 1,
    "tipo": "Puente",
    "tormenta": 1
-},
+}
 {
    "chubasco": 1,
    "ciudad": "Ciudad Hidalgo",
@@ -4756,7 +4755,7 @@
    "soleado": 0,
    "tipo": "Zona Arqueologica",
    "tormenta": 1
-},
+}
 {
    "chubasco": 1,
    "ciudad": "Morelia",
@@ -4769,7 +4768,7 @@
    "soleado": 1,
    "tipo": "Playa",
    "tormenta": 0
-},
+}
 {
    "chubasco": 1,
    "ciudad": "Zitacuaro",
@@ -4782,7 +4781,7 @@
    "soleado": 1,
    "tipo": "Parque",
    "tormenta": 1
-},
+}
 {
    "chubasco": 1,
    "ciudad": "Cuernavaca",
@@ -4795,7 +4794,7 @@
    "soleado": 0,
    "tipo": "Museo",
    "tormenta": 0
-},
+}
 {
    "chubasco": 1,
    "ciudad": "Tepoztlan",
@@ -4808,7 +4807,7 @@
    "soleado": 1,
    "tipo": "Edificio",
    "tormenta": 1
-},
+}
 {
    "chubasco": 1,
    "ciudad": "Tepic",
@@ -4821,7 +4820,7 @@
    "soleado": 0,
    "tipo": "Zona Arqueologica",
    "tormenta": 0
-},
+}
 {
    "chubasco": 1,
    "ciudad": "Monterrey",
@@ -4834,7 +4833,7 @@
    "soleado": 0,
    "tipo": "Puente",
    "tormenta": 0
-},
+}
 {
    "chubasco": 0,
    "ciudad": "Juchitan",
@@ -4847,7 +4846,7 @@
    "soleado": 0,
    "tipo": "Museo",
    "tormenta": 0
-},
+}
 {
    "chubasco": 1,
    "ciudad": "Oaxaca",
@@ -4860,7 +4859,7 @@
    "soleado": 1,
    "tipo": "Restaurante",
    "tormenta": 1
-},
+}
 {
    "chubasco": 1,
    "ciudad": "Cholula",
@@ -4873,7 +4872,7 @@
    "soleado": 1,
    "tipo": "Puente",
    "tormenta": 1
-},
+}
 {
    "chubasco": 0,
    "ciudad": "Matamoros",
@@ -4886,7 +4885,7 @@
    "soleado": 1,
    "tipo": "Parque",
    "tormenta": 1
-},
+}
 {
    "chubasco": 1,
    "ciudad": "Puebla",
@@ -4899,7 +4898,7 @@
    "soleado": 0,
    "tipo": "Museo",
    "tormenta": 1
-},
+}
 {
    "chubasco": 1,
    "ciudad": "Queretaro",
@@ -4912,7 +4911,7 @@
    "soleado": 0,
    "tipo": "Puente",
    "tormenta": 1
-},
+}
 {
    "chubasco": 1,
    "ciudad": "Cancun",
@@ -4925,7 +4924,7 @@
    "soleado": 1,
    "tipo": "Edificio",
    "tormenta": 0
-},
+}
 {
    "chubasco": 1,
    "ciudad": "Chetumal",
@@ -4938,7 +4937,7 @@
    "soleado": 1,
    "tipo": "Edificio",
    "tormenta": 0
-},
+}
 {
    "chubasco": 1,
    "ciudad": "Matehuala",
@@ -4951,7 +4950,7 @@
    "soleado": 1,
    "tipo": "Parque",
    "tormenta": 0
-},
+}
 {
    "chubasco": 0,
    "ciudad": "San Luis Potosi",
@@ -4964,7 +4963,7 @@
    "soleado": 0,
    "tipo": "Puente",
    "tormenta": 1
-},
+}
 {
    "chubasco": 1,
    "ciudad": "Culiacan",
@@ -4977,7 +4976,7 @@
    "soleado": 0,
    "tipo": "Parque",
    "tormenta": 1
-},
+}
 {
    "chubasco": 1,
    "ciudad": "Mazatlan",
@@ -4990,7 +4989,7 @@
    "soleado": 0,
    "tipo": "Playa",
    "tormenta": 1
-},
+}
 {
    "chubasco": 0,
    "ciudad": "CiudadObregon",
@@ -5003,7 +5002,7 @@
    "soleado": 0,
    "tipo": "Restaurante",
    "tormenta": 0
-},
+}
 {
    "chubasco": 1,
    "ciudad": "Hermosillo",
@@ -5016,7 +5015,7 @@
    "soleado": 1,
    "tipo": "Zona Arqueologica",
    "tormenta": 0
-},
+}
 {
    "chubasco": 0,
    "ciudad": "Nogales",
@@ -5029,7 +5028,7 @@
    "soleado": 1,
    "tipo": "Restaurante",
    "tormenta": 0
-},
+}
 {
    "chubasco": 1,
    "ciudad": "SanLuis",
@@ -5042,7 +5041,7 @@
    "soleado": 0,
    "tipo": "Parque",
    "tormenta": 1
-},
+}
 {
    "chubasco": 0,
    "ciudad": "Villahermosa",
@@ -5055,7 +5054,7 @@
    "soleado": 1,
    "tipo": "Museo",
    "tormenta": 1
-},
+}
 {
    "chubasco": 0,
    "ciudad": "Tlaxcala",
@@ -5068,7 +5067,7 @@
    "soleado": 1,
    "tipo": "Zona Arqueologica",
    "tormenta": 1
-},
+}
 {
    "chubasco": 1,
    "ciudad": "Coatzacoalcos",
@@ -5081,7 +5080,7 @@
    "soleado": 1,
    "tipo": "Playa",
    "tormenta": 0
-},
+}
 {
    "chubasco": 0,
    "ciudad": "Orizaba",
@@ -5094,7 +5093,7 @@
    "soleado": 1,
    "tipo": "Playa",
    "tormenta": 1
-},
+}
 {
    "chubasco": 1,
    "ciudad": "Xalapa",
@@ -5107,7 +5106,7 @@
    "soleado": 0,
    "tipo": "Puente",
    "tormenta": 1
-},
+}
 {
    "chubasco": 1,
    "ciudad": "Merida",
@@ -5120,7 +5119,7 @@
    "soleado": 0,
    "tipo": "Museo",
    "tormenta": 1
-},
+}
 {
    "chubasco": 0,
    "ciudad": "Zacatecas",
@@ -5133,5 +5132,4 @@
    "soleado": 1,
    "tipo": "Edificio",
    "tormenta": 1
-},
-]
+}

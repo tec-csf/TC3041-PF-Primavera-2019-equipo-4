@@ -121,6 +121,26 @@ header .main-nav li a:hover, header .main-nav li a.active {
 	color:#606060;
 	text-align:center;
 }
+#main-content .selector {
+	margin-top:20px;
+	margin-bottom:20px;
+	margin-left: 30px;
+	margin-right: 30px;
+}
+
+div.text-intro form {
+	display: flex;
+	flex-direction: column;
+}
+div#application {
+	height: 400px;
+}
+div .dynamic-list-div {
+	background-color: gray;
+	height: 400px;
+	overflow-y: scroll;
+	padding: 10px;
+}
 div.columns {
 	height:1%;
 }
@@ -166,7 +186,6 @@ div.img-first:hover, div.img-second:hover {
 }
 #main-content .features, #main-content .portfolio {
 	clear:both;
-	float:left;
 	margin-bottom:50px;
 }
 footer {
