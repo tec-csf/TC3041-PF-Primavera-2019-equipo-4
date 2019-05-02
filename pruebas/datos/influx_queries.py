@@ -11,15 +11,21 @@ client = InfluxDBClient(host='127.0.0.1', port=8086, database='pfprueba')
 client.switch_database('pfprueba')
 measurements = client.get_list_measurements()
 
-print(measurements)
+#print(measurements)
 rs = client.query('SELECT * from Temperatura limit 2')
 rs = list(rs.get_points())
-print(rs)
-print("\n\n\n\n")
+#print(rs)
+#print("\n\n\n\n")
 query = clean_json(rs)
-print(query[0]["temperatura"])
+#print(query[0]["temperatura"])
 
 
 for i in range(len(query)):
 	for key, value in query[i].items():
 		print (key, value)
+
+print("Query")
+ciudades = client.query('SELECT * from Clima limit 2')
+ciudades = list(ciudades.get_points())
+ciudades = clean_json(ciudades)
+print(ciudades[0]["ciudad"])
