@@ -1,11 +1,36 @@
 <!DOCTYPE HTML>
 <html>
 <head>
-<title>Attraction Finder</title>
-<meta charset="utf-8">
-<link rel="stylesheet" type="text/css" href="css/style.css">
+  <title>Attraction Finder</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <script>
+    function restrictDate()
+    {
+      var today = new Date();
+      var dd = today.getDate();
+      var mm = today.getMonth() + 1; //January is 0!
+      var yyyy = today.getFullYear();
+
+      if (dd < 10) {
+        dd = '0' + dd
+      }
+
+      if (mm < 10) {
+        mm = '0' + mm
+      }
+
+      today = yyyy + '-' + mm + '-' + dd;
+      document.getElementById('date-selector').setAttribute("min", today);
+    }
+
+    function setup()
+    {
+      restrictDate()
+    }
+  </script>
 </head>
-<body>
+<body onload="setup()">
 <header>
   <nav class="main-nav">
     <ul>
@@ -29,15 +54,8 @@
   <div class="text-intro">
     <h2>Find an Atraction</h2>
     <form action="/query_atractions" method="POST">
-      <select id="date-selector" class="selector" name="date-selector">
-        <option value="">Select the Date</option>
-        <option value="Option1">Option1</option>
-        <option value="Option2">Option2</option>
-
-        {% for i in result %}
-          <li><a>{{ i }}</a></li>
-        {% endfor %}
-      </select>
+      <input type="date" id="date-selector" class="selector" name="date-selector">
+      <input type="time" id="time-selector" class="selector" name="time-selector">
       <select id="state-selector" class="selector" name="state-selector">
         <option value="">Select the State</option>
         <option value="Option1">Option1</option>
@@ -50,7 +68,7 @@
         <option value="Option2">Option2</option>
 
       </select>
-      <input type="submit"/>
+      <input type="submit" class="selector" />
     </form>
   </div>
 

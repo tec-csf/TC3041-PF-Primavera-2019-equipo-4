@@ -108,17 +108,17 @@ sh.addShard( "rsShard1/mongo-shard11:27018")
 
 # Habilitar sharding para una base de datos
 
-sh.enableSharding("shdb")
+sh.enableSharding("atractions")
 
 # Habilitar sharding en una colección
 
-Range: sh.shardCollection("shdb.data",  { "number" : 1 } )
+Range: sh.shardCollection("atractions.places",  { "estado" : 1 } )
 
-Hash: sh.shardCollection("shdb.data", { _id : "hashed" } )
+Hash: sh.shardCollection("atractions.places", { _id : "hashed" } )
 
 # Monitorear el estado del clúster
 
-use shdb
+use atractions
 sh.status()
 db.printShardingStatus() 
 
@@ -146,7 +146,7 @@ mongoimport --db atractions --collection places --file /mongo_data.txt
 
 # Dividir los datos entre chunks
 
-sh.splitFind( "shdb.data", { "number": 4000 } )
+sh.splitFind( "atractions.places", { "number": 4000 } )
 
 
 # En caso de insertar datos antes de habilitar el sharding
