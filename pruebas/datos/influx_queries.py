@@ -37,3 +37,15 @@ ciudad = client.query('show tag values on "pfprueba" from "Temperatura" with key
 ciudad = list(ciudad.get_points())
 ciudad = clean_json(ciudad)
 #print(ciudad[0]["value"])
+
+get_time_ciudadstr="select "+'"clima"'+" from Clima where ciudad='Acambaro' and time='2019-01-01T01:00:00Z'"
+get_time_ciudad = client.query(get_time_ciudadstr)
+get_time_ciudad = list(get_time_ciudad.get_points())
+get_time_ciudad = clean_json(get_time_ciudad)
+print(get_time_ciudad[0]["clima"])
+
+get_time_estado_str="select "+'"clima"'+" from Clima where estado='CDMX' and time='2019-01-01T01:00:00Z'"
+get_time_estado = client.query(get_time_estado_str)
+get_time_estado = list(get_time_estado.get_points())
+get_time_estado = clean_json(get_time_estado)
+print(get_time_estado[0]["clima"])
