@@ -24,6 +24,9 @@ for i in range(len(query)):
 	for key, value in query[i].items():
 		print (key, value)
 
+print("Time")
+print(query[0]["time"])
+
 print("Query")
 estados = client.query('show tag values on "pfprueba" from "Temperatura" with key="estado"')
 estados = list(estados.get_points())
