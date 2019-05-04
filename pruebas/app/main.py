@@ -122,7 +122,7 @@ def query_atractions():
 
 		climate = getClimaFromCiudad(city, newdate)
 
-		return render_template("city_select.html", date=date, time=time, state=state, listCities=listCities, newdate=newdate)
+		return render_template("city_select.html", date=date, time=time, state=state, listCities=listCities, newdate=newdate, climate=climate)
 
     
 
