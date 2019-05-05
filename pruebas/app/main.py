@@ -121,8 +121,17 @@ def query_atractions():
 		city = request.form['city-selector']
 
 		climate = getClimaFromCiudad(city, newdate)
+		climate = climate[0]["clima"]
 
-		return render_template("city_select.html", date=date, time=time, state=state, listCities=listCities, newdate=newdate, climate=climate)
+		#convert climate to lowecase
+		climate = climate.lower()
+
+		#Query atractions on MongoDB based on climate
+		pipe = [{"$match":{climate:1, "ciudad":city}},{"$project":{"_id":0, "nombre":1, "ciudad":1, "direccion":1, "nivel de precios":1, "tipo":1, "path_imagen":1}}]
+		cursor = collectionData.aggregate(pipe)
+		suitableAtractions = list(cursor)
+
+		return render_template("city_select.html", date=date, time=time, state=state, city=city, listCities=listCities, newdate=newdate, climate=climate, suitableAtractions=suitableAtractions)
 
     
 

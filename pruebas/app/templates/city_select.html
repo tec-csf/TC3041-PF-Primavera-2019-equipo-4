@@ -4,46 +4,44 @@
   <title>Attraction Finder</title>
   <meta charset="utf-8">
   <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+
 </head>
 <body>
 <header>
   <nav class="main-nav">
-    <ul>
-      
-    </ul>
   </nav>
 </header>
 <section id="main-content">
   <h1>Your options</h1>
   <br>
-  <p>Date: {{ date }}</p>
-  <p>Time: {{ time }}</p>
-  <p>State: {{ state }}</p>
-  <br>
+  <p>Date: {{ date }} &nbsp;&nbsp; Time: {{time}} &nbsp;&nbsp; State: {{state}}</p>
 
   <form action="/query_atractions" method="POST">
-    <select id="city-selector" class="selector" name="city-selector">
-      <option value="">Select the City</option>
-      {% for i in listCities %}
-        <option value="{{ i }}">{{ i }}</option>
-      {% endfor %}
-    </select>
-    <input type="submit" class="selector" />
+    <div class="one-third">
+      <select class="fit-container" id="city-selector" name="city-selector" style="width: 100%;">
+        <option value="">Select the City</option>
+        {% for i in listCities %}
+          <option value="{{ i }}">{{ i }}</option>
+        {% endfor %}
+      </select>
+    </div>
+    <div class="two-third">
+      <input type="submit" />
+    </div>
   </form>
 
-  <h1>Results from query (influx)</h1>
-  <br>
-  {% for i in climate %}
-    <p>City climate {{i}}</p>
-  {% endfor %}
-
+  <h1>{{city}}</h1>
+  <p>City climate {{climate}}</p>
+  
   <div id="application" class="columns features">
     <div class="one-third first">
       <h3>Suitable Atractions</h3>
         <div class="dynamic-list-div">
             <ul id="atractions-list" class="dynamic-content-list">
-                {% for i in result %}
-                  <li><a>{{ i }}</a></li>
+                {% for i in suitableAtractions %}
+                  <li class="selectable-item">
+                    <p>{{ i.nombre }}</p>
+                  </li>
                 {% endfor %}
             </ul>
         </div>
@@ -51,17 +49,11 @@
     <div class="two-third">
       <h3>Details</h3>
       <div class="dynamic-list-div">
-          <ul>
-              {% for i in result %}
-                <li><a>{{ i }}</a></li>
-              {% endfor %}
+          <ul id="detail-list">
           </ul>
       </div>
     </div>
   </div>
 </section>
-<footer>
-  <div class="copyright"><small>Copyright. All Rights Reserved | by <a target="_blank" rel="nofollow" href="http://www.iamsupview.be">Supview</a>.</small></div>
-</footer>
 </body>
 </html>

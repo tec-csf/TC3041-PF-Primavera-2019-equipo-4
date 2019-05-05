@@ -3,6 +3,9 @@
 <head>
   <title>Attraction Finder</title>
   <meta charset="utf-8">
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+  <meta http-equiv="Pragma" content="no-cache" />
+  <meta http-equiv="Expires" content="0" />
   <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
   <script>
     function restrictDate()
@@ -33,9 +36,6 @@
 <body onload="setup()">
 <header>
   <nav class="main-nav">
-    <ul>
-      
-    </ul>
   </nav>
 </header>
 <section id="video" class="home">
@@ -48,61 +48,25 @@
   <div class="text-intro">
     <h2>Find an Atraction</h2>
     <form action="/city_select" method="POST">
-      <input type="date" id="date-selector" class="selector" name="date-selector">
-      <input type="time" id="time-selector" class="selector" name="time-selector">
-      <select id="state-selector" class="selector" name="state-selector">
-        <option value="">Select the State</option>
-        {% for i in listStates %}
-          <option value="{{ i }}">{{ i }}</option>
-        {% endfor %}
-      </select>
+      <div>
+        <div class="one-third">
+            <input type="date" id="date-selector" class="selector" name="date-selector">
+        </div>
+        <div class="one-third">
+            <input type="time" id="time-selector" class="selector" name="time-selector">
+        </div>
+        <div class="one-third">
+            <select id="state-selector" class="selector" name="state-selector">
+              <option value="">Select the State</option>
+              {% for i in listStates %}
+                <option value="{{ i }}">{{ i }}</option>
+              {% endfor %}
+            </select>
+        </div>
+      </div>
       <input type="submit" class="selector" />
     </form>
   </div>
-
-  <h1>Your options</h1>
-  <br>
-  <p>Date: {{ date }}</p>
-  <p>Time: {{ time }}</p>
-  <p>State: {{ state }}</p>
-  <p>City: {{ city }}</p>
-  <br>
-
-  <h1>Results from query (influx)</h1>
-  <br>
-  {% for i in cityClimate %}
-    <p>City climate {{i}}</p>
-  {% endfor %}
-
-  {% for i in stateClimate %}
-    <p>State climate {{i}}</p>
-  {% endfor %}
-
-  <div id="application" class="columns features">
-    <div class="one-third first">
-      <h3>Suitable Atractions</h3>
-        <div class="dynamic-list-div">
-            <ul id="atractions-list" class="dynamic-content-list">
-                {% for i in result %}
-                  <li><a>{{ i }}</a></li>
-                {% endfor %}
-            </ul>
-        </div>
-    </div>
-    <div class="two-third">
-      <h3>Details</h3>
-      <div class="dynamic-list-div">
-          <ul>
-              {% for i in result %}
-                <li><a>{{ i }}</a></li>
-              {% endfor %}
-          </ul>
-      </div>
-    </div>
-  </div>
 </section>
-<footer>
-  <div class="copyright"><small>Copyright. All Rights Reserved | by <a target="_blank" rel="nofollow" href="http://www.iamsupview.be">Supview</a>.</small></div>
-</footer>
 </body>
 </html>

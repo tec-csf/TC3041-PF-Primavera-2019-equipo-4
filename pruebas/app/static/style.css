@@ -3,6 +3,9 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 	margin:0;
 	padding:0
 }
+.selectable-item:hover {
+	background-color: silver
+}
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
 	display:block
 }
@@ -126,6 +129,7 @@ header .main-nav li a:hover, header .main-nav li a.active {
 	margin-bottom:20px;
 	margin-left: 30px;
 	margin-right: 30px;
+	width:100%
 }
 
 div.text-intro form {
@@ -136,7 +140,7 @@ div#application {
 	height: 400px;
 }
 div .dynamic-list-div {
-	background-color: gray;
+	background-color: gainsboro;
 	height: 400px;
 	overflow-y: scroll;
 	padding: 10px;
@@ -324,7 +328,7 @@ footer .copyright a:hover {
 	height:16px;
 }
 .work, .home, .contact {
-	background:url("../images/bgwork.jpg");
+	background:url("../images/sky.jpg");
 	background-size:cover;
 }
 @media handheld and (max-width:480px), screen and (max-device-width:480px), screen and (max-width:767px) {
@@ -373,6 +377,10 @@ div.one-third, div.one-fourth, .copyright {
 	width:95%;
 	float:none;
 	padding:0 0 0 10px;
+}
+select #city-selector.one-third {
+	width:31.3%;
+	margin:4%;
 }
 .copyright {
 	text-align:center;
