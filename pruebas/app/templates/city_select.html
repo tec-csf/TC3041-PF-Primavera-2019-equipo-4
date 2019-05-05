@@ -4,7 +4,20 @@
   <title>Attraction Finder</title>
   <meta charset="utf-8">
   <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+  <script>
+    function fillDetails(atraction)
+    {
+      htmlDetails =  `
+        <li>Nombre: ${atraction.nombre}</li>
+        <li>Direccion: ${atraction.direccion}</li>
+        <li>Nivel de precios: ${atraction['nivel de precios']}</li>
+        <li>Tipo: ${atraction.tipo}</li>
+      `;
 
+      document.getElementById("detail-list").innerHTML = htmlDetails;
+      return;
+    }
+  </script>
 </head>
 <body>
 <header>
@@ -39,7 +52,7 @@
         <div class="dynamic-list-div">
             <ul id="atractions-list" class="dynamic-content-list">
                 {% for i in suitableAtractions %}
-                  <li class="selectable-item">
+                  <li class="selectable-item" onclick='fillDetails({{ i|tojson }})'>
                     <p>{{ i.nombre }}</p>
                   </li>
                 {% endfor %}
