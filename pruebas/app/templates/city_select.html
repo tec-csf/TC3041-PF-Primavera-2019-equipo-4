@@ -8,6 +8,7 @@
     function fillDetails(atraction)
     {
       htmlDetails =  `
+        <img style="height:10%;" source=${atraction.path_imagen} alt="atraction"</li>
         <li>Nombre: ${atraction.nombre}</li>
         <li>Direccion: ${atraction.direccion}</li>
         <li>Nivel de precios: ${atraction['nivel de precios']}</li>
@@ -62,7 +63,7 @@
     <div class="two-third">
       <h3>Details</h3>
       <div class="dynamic-list-div">
-          <ul id="detail-list">
+          <ul id="detail-list" class="dynamic-content-list">
           </ul>
       </div>
     </div>
