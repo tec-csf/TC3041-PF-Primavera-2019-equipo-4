@@ -32,12 +32,9 @@ spec:
       labels:
         name: frontend-app
     spec:
-      containers:
+      containers: 
       - name: frontend
-        image: frontend-image
+        image: gcr.io/annular-arena-239814/app
         imagePullPolicy: IfNotPresent
         ports:
         - containerPort: 4200
-      - name: backend
-        image: backend-image
-        imagePullPolicy: IfNotPresent
