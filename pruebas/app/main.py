@@ -5,8 +5,12 @@ from influxdb import InfluxDBClient
 from bson.son import SON
 import json
 
+#mongo "mongodb+srv://cluster0-26vpf.gcp.mongodb.net/test" --username demo
+
 #Mongo configuration
-mongo_uri = "mongodb://mongo-router:27017"
+#mongo_uri = "mongodb://mongo-router:27017"
+#client = MongoClient(mongo_uri)
+mongo_uri = "mongodb+srv://demo:1234@cluster0-26vpf.gcp.mongodb.net/test?retryWrites=true"
 client = MongoClient(mongo_uri)
 db = client.atractions
 collectionData = db.places

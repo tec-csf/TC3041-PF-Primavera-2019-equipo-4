@@ -11,6 +11,7 @@ COPY requirements.txt ./
 # Install API dependencies
 RUN pip install --no-cache-dir -r requirements.txt
 RUN pip install influxdb
+RUN pip install dnspython
 
 # Add application code.
 COPY . ./
