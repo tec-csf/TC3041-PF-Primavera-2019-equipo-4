@@ -1,0 +1,43 @@
+kind: Service
+apiVersion: v1
+metadata:
+  name: frontend-service
+  labels:
+    name: frontend-service
+spec:
+  ports:
+  - name: http
+    port: 80
+    targetPort: 4200
+    protocol: TCP
+  selector:
+    name: frontend-app
+  type: LoadBalancer
+        
+---
+
+apiVersion: apps/v1beta2 
+kind: Deployment
+metadata:
+  name: frontend-app
+  labels:
+    name: frontend-app
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      name: frontend-app
+  template:
+    metadata:
+      labels:
+        name: frontend-app
+    spec:
+      containers:
+      - name: frontend
+        image: frontend-image
+        imagePullPolicy: IfNotPresent
+        ports:
+        - containerPort: 4200
+      - name: backend
+        image: backend-image
+        imagePullPolicy: IfNotPresent
