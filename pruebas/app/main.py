@@ -110,9 +110,11 @@ def city_select():
 		#convert Hour to make queries
 		global newdate;
 		newdate = clean_time(date, time)
+
+		climate="default"
 		
 		#Fill template
-		return render_template("city_select.html", date=date, time=time, state=state, listCities=listCities)
+		return render_template("city_select.html", date=date, time=time, state=state, listCities=listCities, climate=climate)
 
 @app.route("/query_atractions", methods=['POST'])
 def query_atractions():

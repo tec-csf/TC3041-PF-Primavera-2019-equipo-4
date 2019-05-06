@@ -8,7 +8,8 @@
     function fillDetails(atraction)
     {
       htmlDetails =  `
-        <img style="height:10%;" source=${atraction.path_imagen} alt="atraction"</li>
+        <li><img src="./static/${atraction.path_imagen}.jpg" alt="atraction" style="width:300px;height:200px;object-fit:cover;"></li>
+        <br>
         <li>Nombre: ${atraction.nombre}</li>
         <li>Direccion: ${atraction.direccion}</li>
         <li>Nivel de precios: ${atraction['nivel de precios']}</li>
@@ -30,7 +31,7 @@
   <br>
   <p>Date: {{ date }} &nbsp;&nbsp; Time: {{time}} &nbsp;&nbsp; State: {{state}}</p>
 
-  <form action="/query_atractions" method="POST">
+  <form action="/query_atractions" method="POST" style="height:50px">
     <div class="one-third">
       <select class="fit-container" id="city-selector" name="city-selector" style="width: 100%;">
         <option value="">Select the City</option>
@@ -44,8 +45,10 @@
     </div>
   </form>
 
-  <h1>{{city}}</h1>
-  <p>City climate {{climate}}</p>
+  <div style="display: flex; flex-direction: row; align-items: center;">
+    <image src="./static/climate/{{climate}}.svg" style="width:5%"/>
+    <h1>{{city}}</h1>
+  </div>
   
   <div id="application" class="columns features">
     <div class="one-third first">
