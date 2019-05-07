@@ -75,7 +75,10 @@ A continuación aparecen descritos los diferentes elementos que forman parte de 
 
 ### 3.4 Backend
 
-*[Incluya aquí una explicación de la solución utilizada para el backend del proyecto. No olvide incluir las ligas o referencias donde se puede encontrar información de los lenguajes de programación, frameworks y librerías utilizadas.]*
+El backend está sobre las bases de datos:
+-   InfluxDB
+    Esta base
+-   MongoDB
 
 #### 3.4.1 Lenguaje de programación
 #### 3.4.2 Framework
