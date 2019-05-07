@@ -62,7 +62,7 @@ A continuación aparecen descritos los diferentes elementos que forman parte de 
 En la aplicación era necesario guardar información cada hora del clima de las diferentes ciudades en México, es por esto que se decidió utilizar InfluxDB. Ya que tiene una manejo bueno de series de tiempo y es utilizado para grandes volumenes de información.
 ### 3.2 Arquitectura de la solución
 
-![arquitectura.png](http://url/to/img.png)
+![arquitectura.png](https://github.com/tec-csf/TC3041-PF-Primavera-2019-equipo-4/blob/master/arquitectura.png)
 
 ### 3.3 Frontend
 
