@@ -59,11 +59,10 @@ A continuación aparecen descritos los diferentes elementos que forman parte de 
 
 ### 3.1 Modelos de *bases de datos* utilizados
 
-*[Incluya aquí una explicación del análisis realizado y la justificación de los modelos de *bases de datos* seleccionados. Incluya todo lo que considere necesario para que una persona sin conocimientos técnicos pueda entender de que trata su solución.]*
-
+En la aplicación era necesario guardar información cada hora del clima de las diferentes ciudades en México, es por esto que se decidió utilizar InfluxDB. Ya que tiene una manejo bueno de series de tiempo y es utilizado para grandes volumenes de información.
 ### 3.2 Arquitectura de la solución
 
-*[Incluya aquí un diagrama donde se aprecie la arquitectura de la solución propuesta, así como la interacción entre los diferentes componentes de la misma.]*
+![arquitectura.png](http://url/to/img.png)
 
 ### 3.3 Frontend
 
@@ -81,8 +80,13 @@ El backend está sobre las bases de datos:
 -   MongoDB
 
 #### 3.4.1 Lenguaje de programación
+Para lograr la comunicación a las bases de datos se utilizo python.
+
 #### 3.4.2 Framework
+-   InfluxDB
+-   MongoDB
 #### 3.4.3 Librerías de funciones o dependencias
+
 
 ### 3.5 API
 
