@@ -77,7 +77,7 @@ A continuación aparecen descritos los diferentes elementos que forman parte de 
 
 El backend está sobre las bases de datos:
 -   InfluxDB
-    Esta base
+    -   Esta base permite guardar datos en determinados periodos de tiempos. Un modelo que permite el ingreso de información del clima, utilizado para esta aplicación.
 -   MongoDB
 
 #### 3.4.1 Lenguaje de programación
