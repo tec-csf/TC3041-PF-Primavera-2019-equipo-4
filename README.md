@@ -165,7 +165,7 @@ docker run --rm --name app -p 8080:8080 flaskpf
 * Una vez creado el clúster, seleccione la opción "Ejecutar" y en la ventana que aparece, seleccione el primer comando relacionado con kubectl. El comando a copiar tiene una estructura similar a la siguiente:
 gcloud container clusters get-credentials demo-webinar --zone us-central1-a --project webinar-199317
 
-*Ejecute el comando anterior en una terminal de su computadora.
+* Ejecute el comando anterior en una terminal de su computadora.
 Compile la imagen del contenedor de la aplicación, sustituyendo <PROJECT ID> por el que le correponde. Este valor es el que aparece en el parámetro --project del comando ejecutado en el paso anterior:
 docker build -t gcr.io/<PROJECT ID>/flask-api app/.
 
