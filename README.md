@@ -173,7 +173,7 @@ docker build -t gcr.io/<PROJECT ID>/flask-api app/.
 gcloud docker -- push gcr.io/<PROJECT ID>/flask-api
 
 * Despliegue la aplicación en Google Cloud Platform:
-kubectl create -f proxy-api.yaml
+kubectl create -f kuber.yaml
 
 * Verifique que los servicios se encuentran funcionando correctamente:
 kubectl get deployment kubectl get service kubectl get pod
@@ -185,10 +185,15 @@ kubectl get service
 
 * Para eliminar la aplicación y los servicios creados ejecute:
 
-* kubectl delete -f proxy-api.yaml
+* kubectl delete -f kuber.yaml
 
 * Elimine el clúster desde la Consola de Google Cloud Platform.
 
 ## 4. Referencias
 
-*[Incluya aquí las referencias a sitios de interés, datasets y cualquier otra información que haya utilizado para realizar el proyecto y que le puedan ser de utilidad a otras personas que quieran usarlo como referencia]*
+-   https://docs.influxdata.com/influxdb/v1.7/
+-   https://docs.mongodb.com/
+-   http://flask.pocoo.org/docs/1.0/api/
+-   https://kubernetes.io/docs/home/
+-   https://docs.python.org/3/
+-   https://www.w3schools.com/python/default.asp
