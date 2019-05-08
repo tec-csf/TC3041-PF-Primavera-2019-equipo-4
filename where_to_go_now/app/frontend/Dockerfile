@@ -20,5 +20,5 @@ COPY . ./
 # Start app
 #CMD [ "python", "./main.py" ]
 
-EXPOSE 5000
+EXPOSE 8080
 CMD ["flask", "run", "--host=0.0.0.0"]
