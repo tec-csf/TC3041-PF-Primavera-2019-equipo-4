@@ -152,6 +152,43 @@ docker run --rm --name app -p 8080:8080 flaskpf
 
 **Ejecución en GCP:**
 
+* Descargue el repositorio a una carpeta de su computadora utilizando el comando git clone.
+
+* Cámbiese a la carpeta del proyecto.
+
+* Cree un proyecto en la Consola de Google Cloud Platform. Póngale el nombre y ID que usted prefiera.
+
+* Dentro de la misma consola, en el menú de la izquierda seleccione la opción Kubernetes Engine / Clústeres de Kubernetes y cree un nuevo clúster dentro del proyecto creado en el paso anterior.
+
+* Cambie el nombre nombre del clúster, la versión del clúster a la 1.9.4-gke.1 y el tamaño del clúster a 1 nodo. Los demás valores déjelos como aparecen de manera predeterminada.
+
+* Una vez creado el clúster, seleccione la opción "Ejecutar" y en la ventana que aparece, seleccione el primer comando relacionado con kubectl. El comando a copiar tiene una estructura similar a la siguiente:
+gcloud container clusters get-credentials demo-webinar --zone us-central1-a --project webinar-199317
+
+*Ejecute el comando anterior en una terminal de su computadora.
+Compile la imagen del contenedor de la aplicación, sustituyendo <PROJECT ID> por el que le correponde. Este valor es el que aparece en el parámetro --project del comando ejecutado en el paso anterior:
+docker build -t gcr.io/<PROJECT ID>/flask-api app/.
+
+* Suba la imagen del contendor al registro de su proyecto en Google Cloud Platform:
+gcloud docker -- push gcr.io/<PROJECT ID>/flask-api
+
+* Despliegue la aplicación en Google Cloud Platform:
+kubectl create -f proxy-api.yaml
+
+* Verifique que los servicios se encuentran funcionando correctamente:
+kubectl get deployment kubectl get service kubectl get pod
+
+* Obtenga la URL del servicio. Ejecute varias veces este comando hasta que el valor EXTERNAL-IP se encuentre asignado:
+kubectl get service
+
+* Acceda a la aplicación en un browser con la IP externa obtenida en el paso anterior.
+
+* Para eliminar la aplicación y los servicios creados ejecute:
+
+* kubectl delete -f proxy-api.yaml
+
+* Elimine el clúster desde la Consola de Google Cloud Platform.
+
 ## 4. Referencias
 
 *[Incluya aquí las referencias a sitios de interés, datasets y cualquier otra información que haya utilizado para realizar el proyecto y que le puedan ser de utilidad a otras personas que quieran usarlo como referencia]*
