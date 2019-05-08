@@ -135,7 +135,24 @@ END POINT: "/query_atractions"
 
 *[Incluya aquí una guía paso a paso para poder utilizar el proyecto, desde la clonación del repositorio hasta el despliegue de la solución en una plataforma en la nube.]*
 
+Ejecucion local en docker:
 
+*Clonar el repositorio de GitHub:
+git clone https://github.com/tec-csf/TC3041-PF-Primavera-2019-equipo-4.git
+
+Cambiarse a la carpeta de app y compilar la imagen personalizada de la aplicación: 
+cd app/
+docker build -t flaskpf .
+
+Verifique que la imagen fue creada correctamente con el siguiente comando:
+docker images | grep app
+
+Iniciar el contenedor:
+docker run --rm --name app -p 8080:8080 flaskpf
+
+Acceder al http://localhost:8080
+
+Ejecución en GCP:
 
 ## 4. Referencias
 
