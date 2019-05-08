@@ -1,0 +1,76 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <title>Attraction Finder</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+  <script>
+    function fillDetails(atraction)
+    {
+      htmlDetails =  `
+        <li><img src="./static/${atraction.path_imagen}.jpg" alt="atraction" style="width:300px;height:200px;object-fit:cover;"></li>
+        <br>
+        <li>Nombre: ${atraction.nombre}</li>
+        <li>Direccion: ${atraction.direccion}</li>
+        <li>Nivel de precios: ${atraction['nivel de precios']}</li>
+        <li>Tipo: ${atraction.tipo}</li>
+      `;
+
+      document.getElementById("detail-list").innerHTML = htmlDetails;
+      return;
+    }
+  </script>
+</head>
+<body>
+<header>
+  <nav class="main-nav">
+  </nav>
+</header>
+<section id="main-content">
+  <h1>Your options</h1>
+  <br>
+  <p>Date: {{ date }} &nbsp;&nbsp; Time: {{time}} &nbsp;&nbsp; State: {{state}}</p>
+
+  <form action="/query_atractions" method="POST" style="height:50px">
+    <div class="one-third">
+      <select class="fit-container" id="city-selector" name="city-selector" style="width: 100%;">
+        <option value="">Select the City</option>
+        {% for i in listCities %}
+          <option value="{{ i }}">{{ i }}</option>
+        {% endfor %}
+      </select>
+    </div>
+    <div class="two-third">
+      <input type="submit" />
+    </div>
+  </form>
+
+  <div style="display: flex; flex-direction: row; align-items: center;">
+    <image src="./static/climate/{{climate}}.svg" style="width:5%"/>
+    <h1>{{city}}</h1>
+  </div>
+  
+  <div id="application" class="columns features">
+    <div class="one-third first">
+      <h3>Suitable Atractions</h3>
+        <div class="dynamic-list-div">
+            <ul id="atractions-list" class="dynamic-content-list">
+                {% for i in suitableAtractions %}
+                  <li class="selectable-item" onclick='fillDetails({{ i|tojson }})'>
+                    <p>{{ i.nombre }}</p>
+                  </li>
+                {% endfor %}
+            </ul>
+        </div>
+    </div>
+    <div class="two-third">
+      <h3>Details</h3>
+      <div class="dynamic-list-div">
+          <ul id="detail-list" class="dynamic-content-list">
+          </ul>
+      </div>
+    </div>
+  </div>
+</section>
+</body>
+</html>
