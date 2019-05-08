@@ -69,8 +69,6 @@ En cuanto a MongoDB, se usó esta base de datos dada su facilidad para almacenar
 
 ### 3.3 Frontend
 
-*[Incluya aquí una explicación de la solución utilizada para el frontend del proyecto. No olvide incluir las ligas o referencias donde se puede encontrar información de los lenguajes de programación, frameworks y librerías utilizadas.]*
-
 El front-end fue desarrollado utilizando html, css y javascript regulares complementandolo con el uso de Jinja, un templating engine que mediante sintaxis especial reemplazaba en determinados lugares del html el contenido para presentar la informacion obtenida de los queries a las bases de datos implementadas.
 
 #### 3.3.1 Lenguaje de programación
@@ -105,8 +103,6 @@ Para lograr la comunicación a las bases de datos se utilizo python.
 
 ### 3.5 API
 
-*[Incluya aquí una explicación de la solución utilizada para implementar la API del proyecto. No olvide incluir las ligas o referencias donde se puede encontrar información de los lenguajes de programación, frameworks y librerías utilizadas.]*
-
 Para la comunicación entre frontend y back-end se utilizó el framework Flask para Python que con base en la url que se accedía desde el explorador detonaba la ejecución de los diferentes métodos especificados en el programa que podían a su vez llamar a la ejecución de queries específicos en las bases de datos.
 
 #### 3.5.1 Lenguaje de programación
@@ -138,6 +134,8 @@ END POINT: "/query_atractions"
 ## 3.6 Pasos a seguir para utilizar el proyecto
 
 *[Incluya aquí una guía paso a paso para poder utilizar el proyecto, desde la clonación del repositorio hasta el despliegue de la solución en una plataforma en la nube.]*
+
+
 
 ## 4. Referencias
 
