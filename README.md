@@ -51,7 +51,7 @@ Como parte de la entrega final del proyecto, se debe incluir la siguiente inform
 
 ## 2. Descripción del proyecto
 
-*[Incluya aquí la descripción del proyecto seleccionado.]*
+El proyecto consiste en una web app que con base en información almacenada en una base de datos "influxdb" ligaba datos de  la temperatura y el esetado del clima en diferentes ciudades con datos de atracciones públicas almacenadas en una base de datos mongodb utilizando como atributo discriminatorio el estado del clima. Es decir, el usuario tiene la posibilidad de seleccionar una fecha y hora determinada en una ciudad en específico y en respuesta obtiene una lista con las posibles atracciones a las que puede ir.
 
 ## 3. Solución
 
@@ -60,6 +60,9 @@ A continuación aparecen descritos los diferentes elementos que forman parte de 
 ### 3.1 Modelos de *bases de datos* utilizados
 
 En la aplicación era necesario guardar información cada hora del clima de las diferentes ciudades en México, es por esto que se decidió utilizar InfluxDB. Ya que tiene una manejo bueno de series de tiempo y es utilizado para grandes volumenes de información.
+
+En cuanto a MongoDB, se usó esta base de datos dada su facilidad para almacenar los atributos sin necesidad de definirlos en un inicio y tambien gracias a la facilidad de uso en conjunto de python para hacer consultas.
+
 ### 3.2 Arquitectura de la solución
 
 ![arquitectura.png](https://github.com/tec-csf/TC3041-PF-Primavera-2019-equipo-4/blob/master/arquitectura.png)
@@ -68,9 +71,19 @@ En la aplicación era necesario guardar información cada hora del clima de las 
 
 *[Incluya aquí una explicación de la solución utilizada para el frontend del proyecto. No olvide incluir las ligas o referencias donde se puede encontrar información de los lenguajes de programación, frameworks y librerías utilizadas.]*
 
+El front-end fue desarrollado utilizando html, css y javascript regulares complementandolo con el uso de Jinja, un templating engine que mediante sintaxis especial reemplazaba en determinados lugares del html el contenido para presentar la informacion obtenida de los queries a las bases de datos implementadas.
+
 #### 3.3.1 Lenguaje de programación
+
+Python. Python se ocupó en conjunto con Flask utilizando la función render_template() para generar el html dinámico con la informacin necesaria
+
 #### 3.3.2 Framework
+
+Flask y Jinja
+
 #### 3.3.3 Librerías de funciones o dependencias
+
+Flask y Jinja
 
 ### 3.4 Backend
 
@@ -78,6 +91,7 @@ El backend está sobre las bases de datos:
 -   InfluxDB
     -   Esta base permite guardar datos en determinados periodos de tiempos. Un modelo que permite el ingreso de información del clima, utilizado para esta aplicación.
 -   MongoDB
+    -   MongoDb es una base de datos no estructurada que tiene la ventaja de un facil almacenamiento de "documentos", siendo esta la unidad para almacenar registros ya que los atributos de los documentos no deben estar previamente definidos, es decir los atributos pueden variar conforme se insertan documentos
 
 #### 3.4.1 Lenguaje de programación
 Para lograr la comunicación a las bases de datos se utilizo python.
@@ -86,27 +100,40 @@ Para lograr la comunicación a las bases de datos se utilizo python.
 -   InfluxDB
 -   MongoDB
 #### 3.4.3 Librerías de funciones o dependencias
-
+-   MongoClient: pymongo
+-   InfluxDBClient: influxdb
 
 ### 3.5 API
 
 *[Incluya aquí una explicación de la solución utilizada para implementar la API del proyecto. No olvide incluir las ligas o referencias donde se puede encontrar información de los lenguajes de programación, frameworks y librerías utilizadas.]*
 
+Para la comunicación entre frontend y back-end se utilizó el framework Flask para Python que con base en la url que se accedía desde el explorador detonaba la ejecución de los diferentes métodos especificados en el programa que podían a su vez llamar a la ejecución de queries específicos en las bases de datos.
+
 #### 3.5.1 Lenguaje de programación
+
+    Python
+    
+    Referencia: https://docs.python.org/3/
+    
 #### 3.5.2 Framework
+        
+    Flask
+    
+    Referencia: http://flask.pocoo.org/
+    
 #### 3.5.3 Librerías de funciones o dependencias
 
-*[Incluya aquí una explicación de cada uno de los endpoints que forman parte de la API. Cada endpoint debe estar correctamente documentado.]*
+ENTRY POINT: "/"
+* **Descripción**: solicita a la aplicación en python la lista de estados para popular la lista de estados a seleccionar por el usuario y hace "render_template()" al html de la página principal
+* **URL**: "/"
 
-*[Por cada endpoint debe incluir lo siguiente:]*
+END POINT: "/city_select"
+* **Descripción**: solicita a la aplicación en python un render_template() con el html de la página de selección de ciudad utilizando los datos seleccionados por la "form" en la página principal. El paso de la información seleccionada por el usuario en la "form" se hace mediante POST
+* **URL**: "/city_select"
 
-* **Descripción**:
-* **URL**:
-* **Verbos HTTP**:
-* **Headers**:
-* **Formato JSON del cuerpo de la solicitud**: 
-* **Formato JSON de la respuesta**:
-
+END POINT: "/query_atractions"
+* **Descripción**: solicita a la aplicación en python un render_template() con el html de las atracciones posibles con base en la selección de la ciudad
+* **URL**: "/query_atractions"
 
 ## 3.6 Pasos a seguir para utilizar el proyecto
 
