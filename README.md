@@ -133,9 +133,7 @@ END POINT: "/query_atractions"
 
 ## 3.6 Pasos a seguir para utilizar el proyecto
 
-*[Incluya aquí una guía paso a paso para poder utilizar el proyecto, desde la clonación del repositorio hasta el despliegue de la solución en una plataforma en la nube.]*
-
-Ejecucion local en docker:
+ **Ejecucion local en docker:**
 
 *Clonar el repositorio de GitHub:
 git clone https://github.com/tec-csf/TC3041-PF-Primavera-2019-equipo-4.git
