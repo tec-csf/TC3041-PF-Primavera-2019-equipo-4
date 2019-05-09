@@ -18,7 +18,5 @@ ENV FLASK_APP=frontend/main.py
 COPY . ./
 
 # Start app
-#CMD [ "python", "./main.py" ]
-
 EXPOSE 8080
 CMD ["flask", "run", "--host=0.0.0.0", "--port=8080"]
