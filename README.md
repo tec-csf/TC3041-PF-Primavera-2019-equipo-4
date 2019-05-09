@@ -138,6 +138,24 @@ END POINT: "/query_atractions"
 * Clonar el repositorio de GitHub:
 git clone https://github.com/tec-csf/TC3041-PF-Primavera-2019-equipo-4.git
 
+* Cambiarse a un directorio vacío e inicializar el contenedor de influxdb con volumen
+docker run --name influxdb -d --net app-net -p 8086:8086 -v $PWD:/var/lib/influxdb influxdb
+
+* Extraer los datos en influx_data.zip de influxdb contenidos en la ruta /TC3041-PF-Primavera-2019-equipo-4/where_to_go_now/datos
+
+* Copiar el archivo influx_data.txt al contenedor de influx
+docker cp influx_data.txt influxdb:/
+
+* Ejecutar influxdb en terminal
+docker exec -it influxdb bash
+
+* Importar archivo a influx
+influx -import -path=influx_data.txt -precision=s
+
+* Verificar que los datos se hayan importado
+use pfprueba
+select * from Temperatura LIMIT 10
+
 * Cambiarse a la carpeta de app y compilar la imagen personalizada de la aplicación: 
 cd app/
 docker build -t flaskpf .
@@ -146,7 +164,7 @@ docker build -t flaskpf .
 docker images | grep app
 
 * Iniciar el contenedor:
-docker run --rm --name app -p 8080:8080 flaskpf
+docker run --rm --net app-net --name app -p 8080:8080 flaskpf
 
 * Acceder al http://localhost:8080
 
