@@ -1,17 +1,129 @@
+kind: PersistentVolumeClaim
+apiVersion: v1
+metadata:
+  name: influxdb-pv-claim
+  labels:
+    app: demo
+spec:
+  accessModes:
+    - ReadWriteOnce
+  resources:
+    requests:
+      storage: 1Gi
+
+---
+
+apiVersion: v1
+kind: Service
+metadata:
+  name: influxdb
+  labels:
+    app: influxdb
+spec:
+  ports:
+    - port: 8086
+  selector:
+    app: influxdb
+  type: NodePort
+
+---
+
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: influxdb
+  labels:
+    app: influxdb
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: influxdb
+  template:
+    metadata:
+      labels:
+        app: influxdb
+    spec:
+      containers:
+        - name: influxdb
+          image: influxdb:latest
+          env:
+          - name: INFLUXDB_HTTP_AUTH_ENABLED
+            value: "false"
+          - name: INFLUXDB_DATA_ENGINE
+            value: "tsm1"
+          - name: INFLUXDB_REPORTING_DISABLED
+            value: "false"
+          - name: INFLUXDB_DB
+            value: "test"
+          ports:
+            - containerPort: 8086
+              protocol: TCP
+          volumeMounts:
+            - mountPath: /var/lib/influxdb
+              name: influxdb-ps
+      volumes:
+        - name: influxdb-ps
+          persistentVolumeClaim:
+            claimName: influxdb-pv-claim
+
+---
+
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: nginx-conf
+data:
+  nginx.conf: |-
+    user  nginx;
+    worker_processes  1;
+    error_log  /var/log/nginx/error.log warn;
+    pid        /var/run/nginx.pid;
+    events {
+        worker_connections  1024;
+    }
+    http {
+        include       /etc/nginx/mime.types;
+        default_type  application/octet-stream;
+        access_log  /var/log/nginx/access.log;
+        sendfile        on;
+        keepalive_timeout  65;
+        upstream api {
+            server 127.0.0.1:5000;
+        }
+        server {
+          server_name _;
+          listen 80;
+          location / {
+            proxy_set_header        Host $host;
+            proxy_set_header        X-Real-IP $remote_addr;
+            proxy_set_header        X-Forwarded-For $proxy_add_x_forwarded_for;
+            proxy_set_header        X-Forwarded-Proto $scheme;
+            proxy_pass http://api;
+            proxy_read_timeout  90;
+          }
+        }
+    }
+---
+
 kind: Service
 apiVersion: v1
 metadata:
-  name: frontend-service
+  name: nginx-api
   labels:
-    name: frontend-service
+    name: nginx-api
 spec:
   ports:
+  - name: https
+    port: 443
+    targetPort: proxy-https
+    protocol: TCP
   - name: http
     port: 80
-    targetPort: 4200
+    targetPort: proxy-http
     protocol: TCP
   selector:
-    name: frontend-app
+    name: proxy-api
   type: LoadBalancer
         
 ---
@@ -19,22 +131,41 @@ spec:
 apiVersion: apps/v1beta2 
 kind: Deployment
 metadata:
-  name: frontend-app
+  name: proxy-api
   labels:
-    name: frontend-app
+    name: proxy-api
 spec:
   replicas: 1
   selector:
     matchLabels:
-      name: frontend-app
+      name: proxy-api
   template:
     metadata:
       labels:
-        name: frontend-app
+        name: proxy-api
     spec:
-      containers: 
-      - name: frontend
-        image: gcr.io/annular-arena-239814/app
+      volumes:
+      - name: nginx-proxy-config
+        configMap:
+          name: nginx-conf
+      containers:
+      - name: nginx-proxy
+        image: nginx
         imagePullPolicy: IfNotPresent
         ports:
-        - containerPort: 4200
+        - name: proxy-http
+          containerPort: 80
+        - name: proxy-https
+          containerPort: 443
+        volumeMounts:
+        - name: nginx-proxy-config
+          mountPath: /etc/nginx/nginx.conf
+          subPath: nginx.conf
+      - name: flask-api
+        # GCP
+        image: gcr.io/driven-seer-239814/flask-api
+        # IBM Cloud
+        # image: registry.ng.bluemix.net/vcn/flask-api
+        # Azure
+        # image: vcnrc.azurecr.io/flask-api
+        imagePullPolicy: IfNotPresent

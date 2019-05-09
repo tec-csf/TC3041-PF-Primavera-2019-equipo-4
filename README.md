@@ -69,8 +69,6 @@ En cuanto a MongoDB, se usó esta base de datos dada su facilidad para almacenar
 
 ### 3.3 Frontend
 
-*[Incluya aquí una explicación de la solución utilizada para el frontend del proyecto. No olvide incluir las ligas o referencias donde se puede encontrar información de los lenguajes de programación, frameworks y librerías utilizadas.]*
-
 El front-end fue desarrollado utilizando html, css y javascript regulares complementandolo con el uso de Jinja, un templating engine que mediante sintaxis especial reemplazaba en determinados lugares del html el contenido para presentar la informacion obtenida de los queries a las bases de datos implementadas.
 
 #### 3.3.1 Lenguaje de programación
@@ -105,8 +103,6 @@ Para lograr la comunicación a las bases de datos se utilizo python.
 
 ### 3.5 API
 
-*[Incluya aquí una explicación de la solución utilizada para implementar la API del proyecto. No olvide incluir las ligas o referencias donde se puede encontrar información de los lenguajes de programación, frameworks y librerías utilizadas.]*
-
 Para la comunicación entre frontend y back-end se utilizó el framework Flask para Python que con base en la url que se accedía desde el explorador detonaba la ejecución de los diferentes métodos especificados en el programa que podían a su vez llamar a la ejecución de queries específicos en las bases de datos.
 
 #### 3.5.1 Lenguaje de programación
@@ -137,8 +133,67 @@ END POINT: "/query_atractions"
 
 ## 3.6 Pasos a seguir para utilizar el proyecto
 
-*[Incluya aquí una guía paso a paso para poder utilizar el proyecto, desde la clonación del repositorio hasta el despliegue de la solución en una plataforma en la nube.]*
+ **Ejecucion local en docker:**
+
+* Clonar el repositorio de GitHub:
+git clone https://github.com/tec-csf/TC3041-PF-Primavera-2019-equipo-4.git
+
+* Cambiarse a la carpeta de app y compilar la imagen personalizada de la aplicación: 
+cd app/
+docker build -t flaskpf .
+
+* Verifique que la imagen fue creada correctamente con el siguiente comando:
+docker images | grep app
+
+* Iniciar el contenedor:
+docker run --rm --name app -p 8080:8080 flaskpf
+
+* Acceder al http://localhost:8080
+
+**Ejecución en GCP:**
+
+* Descargue el repositorio a una carpeta de su computadora utilizando el comando git clone.
+
+* Cámbiese a la carpeta del proyecto.
+
+* Cree un proyecto en la Consola de Google Cloud Platform. Póngale el nombre y ID que usted prefiera.
+
+* Dentro de la misma consola, en el menú de la izquierda seleccione la opción Kubernetes Engine / Clústeres de Kubernetes y cree un nuevo clúster dentro del proyecto creado en el paso anterior.
+
+* Cambie el nombre nombre del clúster, la versión del clúster a la 1.9.4-gke.1 y el tamaño del clúster a 1 nodo. Los demás valores déjelos como aparecen de manera predeterminada.
+
+* Una vez creado el clúster, seleccione la opción "Ejecutar" y en la ventana que aparece, seleccione el primer comando relacionado con kubectl. El comando a copiar tiene una estructura similar a la siguiente:
+gcloud container clusters get-credentials demo-webinar --zone us-central1-a --project webinar-199317
+
+* Ejecute el comando anterior en una terminal de su computadora.
+Compile la imagen del contenedor de la aplicación, sustituyendo <PROJECT ID> por el que le correponde. Este valor es el que aparece en el parámetro --project del comando ejecutado en el paso anterior:
+docker build -t gcr.io/<PROJECT ID>/flask-api app/.
+
+* Suba la imagen del contendor al registro de su proyecto en Google Cloud Platform:
+gcloud docker -- push gcr.io/<PROJECT ID>/flask-api
+
+* Despliegue la aplicación en Google Cloud Platform:
+kubectl create -f kuber.yaml
+
+* Verifique que los servicios se encuentran funcionando correctamente:
+kubectl get deployment kubectl get service kubectl get pod
+
+* Obtenga la URL del servicio. Ejecute varias veces este comando hasta que el valor EXTERNAL-IP se encuentre asignado:
+kubectl get service
+
+* Acceda a la aplicación en un browser con la IP externa obtenida en el paso anterior.
+
+* Para eliminar la aplicación y los servicios creados ejecute:
+
+* kubectl delete -f kuber.yaml
+
+* Elimine el clúster desde la Consola de Google Cloud Platform.
 
 ## 4. Referencias
 
-*[Incluya aquí las referencias a sitios de interés, datasets y cualquier otra información que haya utilizado para realizar el proyecto y que le puedan ser de utilidad a otras personas que quieran usarlo como referencia]*
+-   https://docs.influxdata.com/influxdb/v1.7/
+-   https://docs.mongodb.com/
+-   http://flask.pocoo.org/docs/1.0/api/
+-   https://kubernetes.io/docs/home/
+-   https://docs.python.org/3/
+-   https://www.w3schools.com/python/default.asp
